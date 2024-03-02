@@ -9,6 +9,9 @@ import {
 
 import './style.css'
 import Home from './views/home'
+import Services from './views/services'
+import About from './views/about'
+import Contact from './views/contact'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Home} exact path="/" />
+        <Route component={Services} exact path="/services" />
+        <Route component={About} exact path="/about" />
+        <Route component={Contact} exact path="/contact" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
