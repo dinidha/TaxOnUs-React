@@ -216,6 +216,9 @@
   align-items: center;
   justify-content: center;
 }
+.about-pricing1 {
+  display: none;
+}
 .about-container04 {
   gap: var(--dl-space-space-unit);
   display: flex;

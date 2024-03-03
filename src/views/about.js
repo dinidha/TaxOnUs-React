@@ -273,7 +273,7 @@ const About = (props) => {
         </div>
       </div>
       <div className="about-pricing">
-        <div className="pricingContainer">
+        <div className="about-pricing1 pricingContainer">
           <div className="about-container04">
             <span className="overline">
               <span>Pricing</span>
