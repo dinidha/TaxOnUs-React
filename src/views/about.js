@@ -96,7 +96,7 @@ const About = (props) => {
         </header>
       </div>
       <div className="about-hero">
-        <div className="heroContainer about-hero1">
+        <div className="about-hero1 heroContainer">
           <div className="about-container01">
             <h1 className="about-hero-heading heading1">
               Maximize Your Tax Refund
@@ -300,29 +300,26 @@ const About = (props) => {
                 </span>
               </div>
               <div className="about-container07">
-                <span className="about-text37">
-                  <span>$</span>
-                  <span></span>
-                </span>
+                <span className="about-text37">LKR</span>
                 <span className="about-free-plan-price">0</span>
               </div>
               <div className="about-container08">
                 <div className="about-container09">
-                  <span className="about-text40">✔</span>
+                  <span className="about-text38">✔</span>
                   <span className="bodySmall">
                     Basic tax return preparation
                   </span>
                 </div>
                 <div className="about-container10">
-                  <span className="about-text41">✔</span>
+                  <span className="about-text39">✔</span>
                   <span className="bodySmall">E-filing included</span>
                 </div>
                 <div className="about-container11">
-                  <span className="about-text42">✔</span>
+                  <span className="about-text40">✔</span>
                   <span className="bodySmall">Customer support via email</span>
                 </div>
                 <div className="about-container12">
-                  <span className="about-text43">✔</span>
+                  <span className="about-text41">✔</span>
                   <span className="bodySmall">
                     Limited to one state tax return
                   </span>
@@ -334,42 +331,39 @@ const About = (props) => {
             </div>
             <div className="basicPricingCard about-pricing-card1">
               <div className="about-container13">
-                <span className="about-text44 heading3">BASIC</span>
+                <span className="about-text42 heading3">BASIC</span>
                 <span className="bodySmall">
                   Great for families and small businesses
                 </span>
               </div>
               <div className="about-container14">
-                <span className="about-text45">
-                  <span>$</span>
-                  <span></span>
-                </span>
+                <span className="about-text43">LKR</span>
                 <span className="about-basic-plan-pricing">50</span>
-                <span className="about-text48">/ month</span>
+                <span className="about-text44">/ month</span>
               </div>
               <div className="about-container15">
                 <div className="about-container16">
-                  <span className="about-text49">✔</span>
+                  <span className="about-text45">✔</span>
                   <span className="bodySmall">All features of FREE plan</span>
                 </div>
                 <div className="about-container17">
-                  <span className="about-text51">✔</span>
+                  <span className="about-text47">✔</span>
                   <span className="bodySmall">
                     Tax return preparation for individuals and families
                   </span>
                 </div>
                 <div className="about-container18">
-                  <span className="about-text52">✔</span>
+                  <span className="about-text48">✔</span>
                   <span className="bodySmall">E-filing included</span>
                 </div>
                 <div className="about-container19">
-                  <span className="about-text53">✔</span>
+                  <span className="about-text49">✔</span>
                   <span className="bodySmall">
                     Customer support via email and phone
                   </span>
                 </div>
                 <div className="about-container20">
-                  <span className="about-text54">✔</span>
+                  <span className="about-text50">✔</span>
                   <span className="bodySmall">Up to two state tax returns</span>
                 </div>
               </div>
@@ -379,7 +373,7 @@ const About = (props) => {
             </div>
             <div className="proPricingCard about-pricing-card2">
               <div className="about-container21">
-                <span className="about-text55 heading3">
+                <span className="about-text51 heading3">
                   <span>PRO</span>
                   <br></br>
                 </span>
@@ -388,38 +382,35 @@ const About = (props) => {
                 </span>
               </div>
               <div className="about-container22">
-                <span className="about-text58">
-                  <span>$</span>
-                  <span></span>
-                </span>
+                <span className="about-text54">LKR</span>
                 <span className="about-pro-plan-pricing">100</span>
-                <span className="about-text61">/ month</span>
+                <span className="about-text55">/ month</span>
               </div>
               <div className="about-container23">
                 <div className="about-container24">
-                  <span className="about-text62">✔</span>
+                  <span className="about-text56">✔</span>
                   <span className="bodySmall"> All features of BASIC plan</span>
                 </div>
                 <div className="about-container25">
-                  <span className="about-text64">✔</span>
+                  <span className="about-text58">✔</span>
                   <span className="bodySmall">
                     Comprehensive tax return preparation for individuals,
                     families, and businesses
                   </span>
                 </div>
                 <div className="about-container26">
-                  <span className="about-text65">✔</span>
+                  <span className="about-text59">✔</span>
                   <span className="bodySmall">E-filing included</span>
                 </div>
                 <div className="about-container27">
-                  <span className="about-text66">✔</span>
+                  <span className="about-text60">✔</span>
                   <span className="bodySmall">
                     Priority customer support via email, phone, and in-person
                     meetings
                   </span>
                 </div>
                 <div className="about-container28">
-                  <span className="about-text67">✔</span>
+                  <span className="about-text61">✔</span>
                   <span className="bodySmall">Unlimited state tax returns</span>
                 </div>
               </div>
@@ -520,8 +511,8 @@ const About = (props) => {
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="about-text85 heading2">Common questions</h2>
-              <span className="about-text86 bodyLarge">
+              <h2 className="about-text79 heading2">Common questions</h2>
+              <span className="about-text80 bodyLarge">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -566,7 +557,7 @@ const About = (props) => {
           </div>
           <div className="about-separator"></div>
           <div className="about-container32">
-            <span className="bodySmall about-text89">
+            <span className="bodySmall about-text83">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="about-icon-group1">
