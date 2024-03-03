@@ -294,38 +294,224 @@ const Home = (props) => {
           <div className="home-container05">
             <div className="freePricingCard home-pricing-card">
               <div className="home-container06">
-                <span className="home-text36 heading3">Free</span>
-                <span className="bodySmall">
-                  Ideal for individuals filing simple tax returns
+                <span className="home-text036 heading3">Small business</span>
+                <span>
+                  <span className="bodySmall">
+                    (up to 120 transactions/month)
+                  </span>
+                  <br></br>
+                  <br></br>
                 </span>
               </div>
               <div className="home-container07">
-                <span className="home-text37">
-                  <span>$</span>
-                  <span></span>
-                </span>
-                <span className="home-free-plan-price">0</span>
+                <span className="home-text040">LKR</span>
+                <span className="home-free-plan-price">28,500</span>
+                <span className="home-text041">/ month</span>
               </div>
-              <div className="home-container08">
-                <div className="home-container09">
-                  <span className="home-text40">✔</span>
-                  <span className="bodySmall">
-                    Basic tax return preparation
+              <div className="home-feature-container">
+                <div className="home-feature">
+                  <h1 className="home-text042">Account reconciliation</h1>
+                  <div className="home-sub-feature">
+                    <span className="home-text043">✔</span>
+                    <span>Bank accounts up to 3</span>
+                  </div>
+                  <div className="home-sub-feature01">
+                    <span className="home-text044">✔</span>
+                    <span>
+                      Credit card accounts up to 3
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <div className="home-sub-feature02">
+                    <span className="home-text045">✔</span>
+                    <span>
+                      Reconcile electronic transactions into an Accounting
+                      Package
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <span className="home-text046">LKR 9000</span>
+                </div>
+                <div className="home-feature1">
+                  <h1 className="home-text047">Monthly financials</h1>
+                  <div className="home-sub-feature03">
+                    <span className="home-text048">✔</span>
+                    <span>Balance Sheet</span>
+                  </div>
+                  <div className="home-sub-feature04">
+                    <span className="home-text049">✔</span>
+                    <span>
+                      <span>
+                        Profit &amp; Loss
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                  </div>
+                  <div className="home-sub-feature05">
+                    <span className="home-text053">✔</span>
+                    <span>
+                      <span>
+                        General Ledger
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                  </div>
+                  <div className="home-sub-feature06">
+                    <span className="home-text057">✔</span>
+                    <span>
+                      <span>Statement of Cash Flows</span>
+                      <br></br>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                  </div>
+                  <span className="home-text061">
+                    <span>LKR 8000</span>
+                    <br></br>
                   </span>
                 </div>
-                <div className="home-container10">
-                  <span className="home-text41">✔</span>
-                  <span className="bodySmall">E-filing included</span>
+                <div className="home-feature2">
+                  <h1 className="home-text064">
+                    Stock Records
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </h1>
+                  <div className="home-sub-feature07">
+                    <span className="home-text065">✔</span>
+                    <span>Stock report up to 20 items</span>
+                  </div>
+                  <span className="home-text066">LKR 2500</span>
                 </div>
-                <div className="home-container11">
-                  <span className="home-text42">✔</span>
-                  <span className="bodySmall">Customer support via email</span>
+                <div className="home-feature3">
+                  <h1 className="home-text067">
+                    Employee Funds
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </h1>
+                  <div className="home-sub-feature08">
+                    <span className="home-text068">✔</span>
+                    <span>EPF &amp; ETF returns up to 5 Emps</span>
+                  </div>
+                  <div className="home-sub-feature09">
+                    <span className="home-text069">✔</span>
+                    <span>
+                      Annual return
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <span className="home-text070">LKR 2500</span>
                 </div>
-                <div className="home-container12">
-                  <span className="home-text43">✔</span>
-                  <span className="bodySmall">
-                    Limited to one state tax return
-                  </span>
+                <div className="home-feature4">
+                  <h1 className="home-text071">
+                    Advice
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </h1>
+                  <div className="home-sub-feature10">
+                    <span className="home-text072">✔</span>
+                    <span>
+                      Accountant and business service meeting up to an hour
+                    </span>
+                  </div>
+                  <span className="home-text073">LKR 2000</span>
+                </div>
+                <div className="home-feature5">
+                  <h1 className="home-text074">Software and portals</h1>
+                  <div className="home-sub-feature11">
+                    <span className="home-text075">✔</span>
+                    <span>
+                      Essential document storage
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <div className="home-sub-feature12">
+                    <span className="home-text076">✔</span>
+                    <span>
+                      Accounting software setup &amp; maintenance
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <div className="home-sub-feature13">
+                    <span className="home-text077">✔</span>
+                    <span>
+                      <span>
+                        Expense management with one criterion
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <br></br>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                  </div>
+                  <span className="home-text082">LKR 4500</span>
                 </div>
               </div>
               <button className="home-button buttonOutline">
@@ -333,43 +519,40 @@ const Home = (props) => {
               </button>
             </div>
             <div className="basicPricingCard home-pricing-card1">
-              <div className="home-container13">
-                <span className="home-text44 heading3">BASIC</span>
-                <span className="bodySmall">
-                  Great for families and small businesses
+              <div className="home-container08">
+                <span className="home-text083 heading3">
+                  Small business plus
                 </span>
+                <span>(125-240 transactions/month)</span>
               </div>
-              <div className="home-container14">
-                <span className="home-text45">
-                  <span>$</span>
-                  <span></span>
-                </span>
-                <span className="home-basic-plan-pricing">50</span>
-                <span className="home-text48">/ month</span>
+              <div className="home-container09">
+                <span className="home-text084">LKR</span>
+                <span className="home-basic-plan-pricing">48,500</span>
+                <span className="home-text085">/ month</span>
               </div>
-              <div className="home-container15">
-                <div className="home-container16">
-                  <span className="home-text49">✔</span>
+              <div className="home-container10">
+                <div className="home-container11">
+                  <span className="home-text086">✔</span>
                   <span className="bodySmall">All features of FREE plan</span>
                 </div>
-                <div className="home-container17">
-                  <span className="home-text51">✔</span>
+                <div className="home-container12">
+                  <span className="home-text088">✔</span>
                   <span className="bodySmall">
                     Tax return preparation for individuals and families
                   </span>
                 </div>
-                <div className="home-container18">
-                  <span className="home-text52">✔</span>
+                <div className="home-container13">
+                  <span className="home-text089">✔</span>
                   <span className="bodySmall">E-filing included</span>
                 </div>
-                <div className="home-container19">
-                  <span className="home-text53">✔</span>
+                <div className="home-container14">
+                  <span className="home-text090">✔</span>
                   <span className="bodySmall">
                     Customer support via email and phone
                   </span>
                 </div>
-                <div className="home-container20">
-                  <span className="home-text54">✔</span>
+                <div className="home-container15">
+                  <span className="home-text091">✔</span>
                   <span className="bodySmall">Up to two state tax returns</span>
                 </div>
               </div>
@@ -378,48 +561,48 @@ const Home = (props) => {
               </button>
             </div>
             <div className="proPricingCard home-pricing-card2">
-              <div className="home-container21">
-                <span className="home-text55 heading3">
-                  <span>PRO</span>
+              <div className="home-container16">
+                <span className="home-text092 heading3">
+                  <span>small business advanced</span>
                   <br></br>
                 </span>
                 <span className="bodySmall">
                   Perfect for complex tax situations and businesses
                 </span>
               </div>
-              <div className="home-container22">
-                <span className="home-text58">
-                  <span>$</span>
-                  <span></span>
+              <div className="home-container17">
+                <span className="home-pro-plan-pricing">
+                  <span>Custom</span>
+                  <br></br>
+                  <span>pricing</span>
+                  <br></br>
                 </span>
-                <span className="home-pro-plan-pricing">100</span>
-                <span className="home-text61">/ month</span>
               </div>
-              <div className="home-container23">
-                <div className="home-container24">
-                  <span className="home-text62">✔</span>
+              <div className="home-container18">
+                <div className="home-container19">
+                  <span className="home-text099">✔</span>
                   <span className="bodySmall"> All features of BASIC plan</span>
                 </div>
-                <div className="home-container25">
-                  <span className="home-text64">✔</span>
+                <div className="home-container20">
+                  <span className="home-text101">✔</span>
                   <span className="bodySmall">
                     Comprehensive tax return preparation for individuals,
                     families, and businesses
                   </span>
                 </div>
-                <div className="home-container26">
-                  <span className="home-text65">✔</span>
+                <div className="home-container21">
+                  <span className="home-text102">✔</span>
                   <span className="bodySmall">E-filing included</span>
                 </div>
-                <div className="home-container27">
-                  <span className="home-text66">✔</span>
+                <div className="home-container22">
+                  <span className="home-text103">✔</span>
                   <span className="bodySmall">
                     Priority customer support via email, phone, and in-person
                     meetings
                   </span>
                 </div>
-                <div className="home-container28">
-                  <span className="home-text67">✔</span>
+                <div className="home-container23">
+                  <span className="home-text104">✔</span>
                   <span className="bodySmall">Unlimited state tax returns</span>
                 </div>
               </div>
@@ -515,20 +698,20 @@ const Home = (props) => {
       <div className="home-faq">
         <div className="faqContainer">
           <div className="home-faq1">
-            <div className="home-container29">
+            <div className="home-container24">
               <span className="overline">
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="home-text85 heading2">Common questions</h2>
-              <span className="home-text86 bodyLarge">
+              <h2 className="home-text122 heading2">Common questions</h2>
+              <span className="home-text123 bodyLarge">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
                 <br></br>
               </span>
             </div>
-            <div className="home-container30">
+            <div className="home-container25">
               <Question1
                 answer="We offer a wide range of tax services including tax preparation, tax planning, and IRS problem resolution."
                 question="What tax services do you offer?"
@@ -555,7 +738,7 @@ const Home = (props) => {
       </div>
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
-          <div className="home-container31">
+          <div className="home-container26">
             <span className="TaxOnUs">TAXPROS</span>
             <nav className="home-nav1">
               <span className="bodySmall">Services</span>
@@ -565,8 +748,8 @@ const Home = (props) => {
             </nav>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container32">
-            <span className="bodySmall home-text89">
+          <div className="home-container27">
+            <span className="bodySmall home-text126">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
