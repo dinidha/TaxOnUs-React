@@ -103,10 +103,10 @@ const About = (props) => {
           <div data-thq="thq-navbar-nav" className="about-desktop-menu1">
             <nav className="about-links2">
               <span>About</span>
-              <span className="about-text01">Features</span>
-              <span className="about-text02">Pricing</span>
-              <span className="about-text03">Team</span>
-              <span className="about-text04">Blog</span>
+              <span className="about-text001">Features</span>
+              <span className="about-text002">Pricing</span>
+              <span className="about-text003">Team</span>
+              <span className="about-text004">Blog</span>
             </nav>
             <div className="about-buttons2">
               <button className="about-login2 button">Login</button>
@@ -133,11 +133,11 @@ const About = (props) => {
                 </div>
               </div>
               <nav className="about-links3">
-                <span className="about-text05">About</span>
-                <span className="about-text06">Features</span>
-                <span className="about-text07">Pricing</span>
-                <span className="about-text08">Team</span>
-                <span className="about-text09">Blog</span>
+                <span className="about-text005">About</span>
+                <span className="about-text006">Features</span>
+                <span className="about-text007">Pricing</span>
+                <span className="about-text008">Team</span>
+                <span className="about-text009">Blog</span>
               </nav>
               <div className="about-buttons3">
                 <button className="about-login3 button">Login</button>
@@ -366,35 +366,224 @@ const About = (props) => {
           <div className="about-container05">
             <div className="freePricingCard about-pricing-card">
               <div className="about-container06">
-                <span className="about-text46 heading3">Free</span>
-                <span className="bodySmall">
-                  Ideal for individuals filing simple tax returns
+                <span className="about-text046 heading3">Small business</span>
+                <span>
+                  <span className="bodySmall">
+                    (up to 120 transactions/month)
+                  </span>
+                  <br></br>
+                  <br></br>
                 </span>
               </div>
               <div className="about-container07">
-                <span className="about-text47">LKR</span>
-                <span className="about-free-plan-price">0</span>
+                <span className="about-text050">LKR</span>
+                <span className="about-free-plan-price">28,500</span>
+                <span className="about-text051">/ month</span>
               </div>
-              <div className="about-container08">
-                <div className="about-container09">
-                  <span className="about-text48">✔</span>
-                  <span className="bodySmall">
-                    Basic tax return preparation
+              <div className="about-feature-container">
+                <div className="about-feature">
+                  <h1 className="about-text052">Account reconciliation</h1>
+                  <div className="about-sub-feature">
+                    <span className="about-text053">✔</span>
+                    <span>Bank accounts up to 3</span>
+                  </div>
+                  <div className="about-sub-feature01">
+                    <span className="about-text054">✔</span>
+                    <span>
+                      Credit card accounts up to 3
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <div className="about-sub-feature02">
+                    <span className="about-text055">✔</span>
+                    <span>
+                      Reconcile electronic transactions into an Accounting
+                      Package
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <span className="about-text056">LKR 9000</span>
+                </div>
+                <div className="about-feature1">
+                  <h1 className="about-text057">Monthly financials</h1>
+                  <div className="about-sub-feature03">
+                    <span className="about-text058">✔</span>
+                    <span>Balance Sheet</span>
+                  </div>
+                  <div className="about-sub-feature04">
+                    <span className="about-text059">✔</span>
+                    <span>
+                      <span>
+                        Profit &amp; Loss
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                  </div>
+                  <div className="about-sub-feature05">
+                    <span className="about-text063">✔</span>
+                    <span>
+                      <span>
+                        General Ledger
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                  </div>
+                  <div className="about-sub-feature06">
+                    <span className="about-text067">✔</span>
+                    <span>
+                      <span>Statement of Cash Flows</span>
+                      <br></br>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                  </div>
+                  <span className="about-text071">
+                    <span>LKR 8000</span>
+                    <br></br>
                   </span>
                 </div>
-                <div className="about-container10">
-                  <span className="about-text49">✔</span>
-                  <span className="bodySmall">E-filing included</span>
+                <div className="about-feature2">
+                  <h1 className="about-text074">
+                    Stock Records
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </h1>
+                  <div className="about-sub-feature07">
+                    <span className="about-text075">✔</span>
+                    <span>Stock report up to 20 items</span>
+                  </div>
+                  <span className="about-text076">LKR 2500</span>
                 </div>
-                <div className="about-container11">
-                  <span className="about-text50">✔</span>
-                  <span className="bodySmall">Customer support via email</span>
+                <div className="about-feature3">
+                  <h1 className="about-text077">
+                    Employee Funds
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </h1>
+                  <div className="about-sub-feature08">
+                    <span className="about-text078">✔</span>
+                    <span>EPF &amp; ETF returns up to 5 Emps</span>
+                  </div>
+                  <div className="about-sub-feature09">
+                    <span className="about-text079">✔</span>
+                    <span>
+                      Annual return
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <span className="about-text080">LKR 2500</span>
                 </div>
-                <div className="about-container12">
-                  <span className="about-text51">✔</span>
-                  <span className="bodySmall">
-                    Limited to one state tax return
-                  </span>
+                <div className="about-feature4">
+                  <h1 className="about-text081">
+                    Advice
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </h1>
+                  <div className="about-sub-feature10">
+                    <span className="about-text082">✔</span>
+                    <span>
+                      Accountant and business service meeting up to an hour
+                    </span>
+                  </div>
+                  <span className="about-text083">LKR 2000</span>
+                </div>
+                <div className="about-feature5">
+                  <h1 className="about-text084">Software and portals</h1>
+                  <div className="about-sub-feature11">
+                    <span className="about-text085">✔</span>
+                    <span>
+                      Essential document storage
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <div className="about-sub-feature12">
+                    <span className="about-text086">✔</span>
+                    <span>
+                      Accounting software setup &amp; maintenance
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                  <div className="about-sub-feature13">
+                    <span className="about-text087">✔</span>
+                    <span>
+                      <span>
+                        Expense management with one criterion
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <br></br>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                    </span>
+                  </div>
+                  <span className="about-text092">LKR 4500</span>
                 </div>
               </div>
               <button className="about-button buttonOutline">
@@ -402,40 +591,40 @@ const About = (props) => {
               </button>
             </div>
             <div className="basicPricingCard about-pricing-card1">
-              <div className="about-container13">
-                <span className="about-text52 heading3">BASIC</span>
-                <span className="bodySmall">
-                  Great for families and small businesses
+              <div className="about-container08">
+                <span className="about-text093 heading3">
+                  Small business plus
                 </span>
+                <span>(125-240 transactions/month)</span>
               </div>
-              <div className="about-container14">
-                <span className="about-text53">LKR</span>
-                <span className="about-basic-plan-pricing">50</span>
-                <span className="about-text54">/ month</span>
+              <div className="about-container09">
+                <span className="about-text094">LKR</span>
+                <span className="about-basic-plan-pricing">48,500</span>
+                <span className="about-text095">/ month</span>
               </div>
-              <div className="about-container15">
-                <div className="about-container16">
-                  <span className="about-text55">✔</span>
+              <div className="about-container10">
+                <div className="about-container11">
+                  <span className="about-text096">✔</span>
                   <span className="bodySmall">All features of FREE plan</span>
                 </div>
-                <div className="about-container17">
-                  <span className="about-text57">✔</span>
+                <div className="about-container12">
+                  <span className="about-text098">✔</span>
                   <span className="bodySmall">
                     Tax return preparation for individuals and families
                   </span>
                 </div>
-                <div className="about-container18">
-                  <span className="about-text58">✔</span>
+                <div className="about-container13">
+                  <span className="about-text099">✔</span>
                   <span className="bodySmall">E-filing included</span>
                 </div>
-                <div className="about-container19">
-                  <span className="about-text59">✔</span>
+                <div className="about-container14">
+                  <span className="about-text100">✔</span>
                   <span className="bodySmall">
                     Customer support via email and phone
                   </span>
                 </div>
-                <div className="about-container20">
-                  <span className="about-text60">✔</span>
+                <div className="about-container15">
+                  <span className="about-text101">✔</span>
                   <span className="bodySmall">Up to two state tax returns</span>
                 </div>
               </div>
@@ -444,45 +633,48 @@ const About = (props) => {
               </button>
             </div>
             <div className="proPricingCard about-pricing-card2">
-              <div className="about-container21">
-                <span className="about-text61 heading3">
-                  <span>PRO</span>
+              <div className="about-container16">
+                <span className="about-text102 heading3">
+                  <span>small business advanced</span>
                   <br></br>
                 </span>
                 <span className="bodySmall">
                   Perfect for complex tax situations and businesses
                 </span>
               </div>
-              <div className="about-container22">
-                <span className="about-text64">LKR</span>
-                <span className="about-pro-plan-pricing">100</span>
-                <span className="about-text65">/ month</span>
+              <div className="about-container17">
+                <span className="about-pro-plan-pricing">
+                  <span>Custom</span>
+                  <br></br>
+                  <span>pricing</span>
+                  <br></br>
+                </span>
               </div>
-              <div className="about-container23">
-                <div className="about-container24">
-                  <span className="about-text66">✔</span>
+              <div className="about-container18">
+                <div className="about-container19">
+                  <span className="about-text109">✔</span>
                   <span className="bodySmall"> All features of BASIC plan</span>
                 </div>
-                <div className="about-container25">
-                  <span className="about-text68">✔</span>
+                <div className="about-container20">
+                  <span className="about-text111">✔</span>
                   <span className="bodySmall">
                     Comprehensive tax return preparation for individuals,
                     families, and businesses
                   </span>
                 </div>
-                <div className="about-container26">
-                  <span className="about-text69">✔</span>
+                <div className="about-container21">
+                  <span className="about-text112">✔</span>
                   <span className="bodySmall">E-filing included</span>
                 </div>
-                <div className="about-container27">
-                  <span className="about-text70">✔</span>
+                <div className="about-container22">
+                  <span className="about-text113">✔</span>
                   <span className="bodySmall">
                     Priority customer support via email, phone, and in-person
                     meetings
                   </span>
                 </div>
-                <div className="about-container28">
-                  <span className="about-text71">✔</span>
+                <div className="about-container23">
+                  <span className="about-text114">✔</span>
                   <span className="bodySmall">Unlimited state tax returns</span>
                 </div>
               </div>
@@ -578,20 +770,20 @@ const About = (props) => {
       <div className="about-faq">
         <div className="faqContainer">
           <div className="about-faq1">
-            <div className="about-container29">
+            <div className="about-container24">
               <span className="overline">
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="about-text89 heading2">Common questions</h2>
-              <span className="about-text90 bodyLarge">
+              <h2 className="about-text132 heading2">Common questions</h2>
+              <span className="about-text133 bodyLarge">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
                 <br></br>
               </span>
             </div>
-            <div className="about-container30">
+            <div className="about-container25">
               <Question1
                 answer="We offer a wide range of tax services including tax preparation, tax planning, and IRS problem resolution."
                 question="What tax services do you offer?"
@@ -618,7 +810,7 @@ const About = (props) => {
       </div>
       <div className="about-footer">
         <footer className="footerContainer about-footer1">
-          <div className="about-container31">
+          <div className="about-container26">
             <span className="TaxOnUs">TAXPROS</span>
             <nav className="about-nav2">
               <span className="bodySmall">Services</span>
@@ -628,8 +820,8 @@ const About = (props) => {
             </nav>
           </div>
           <div className="about-separator"></div>
-          <div className="about-container32">
-            <span className="bodySmall about-text93">
+          <div className="about-container27">
+            <span className="bodySmall about-text136">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="about-icon-group2">
