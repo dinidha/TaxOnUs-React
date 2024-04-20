@@ -223,6 +223,7 @@
     height: 99px;
     padding: var(--dl-space-space-unit);
     margin-bottom: 0px;
+    padding-right: 16px;
   }
   .header-desktop-menu {
     display: none;
