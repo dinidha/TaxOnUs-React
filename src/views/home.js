@@ -67,13 +67,24 @@ const Home = (props) => {
                 </div>
               </div>
               <nav className="home-links1">
-                <span className="home-nav121 bodySmall">Home</span>
-                <span className="home-nav221 bodySmall">About Us</span>
-                <span className="home-nav321 bodySmall">Tax Services</span>
-                <span className="home-nav421 bodySmall">
+                <Link to="/" className="home-nav121 bodySmall">
+                  Home
+                </Link>
+                <Link to="/about" className="home-nav221 bodySmall">
+                  About Us
+                </Link>
+                <Link to="/tax-services" className="home-nav321 bodySmall">
+                  Tax Services
+                </Link>
+                <Link
+                  to="/accounting-services"
+                  className="home-nav421 bodySmall"
+                >
                   Accounting Services
-                </span>
-                <span className="home-nav521 bodySmall">Contact Us</span>
+                </Link>
+                <Link to="/contact" className="home-nav521 bodySmall">
+                  Contact Us
+                </Link>
               </nav>
               <div className="home-buttons1">
                 <button className="buttonFlat">Login</button>
