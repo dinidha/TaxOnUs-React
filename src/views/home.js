@@ -106,70 +106,6 @@ const Home = (props) => {
             <h1 className="home-hero-heading heading1">
               Minimize Your Tax Liability
             </h1>
-            <span className="home-hero-sub-heading bodyLarge">
-              <span>
-                <span>
-                  <span>Your Trusted Tax Experts</span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-            </span>
             <div className="home-btn-group">
               <Link
                 to="/tax-services"
@@ -292,8 +228,8 @@ const Home = (props) => {
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="home-text35 heading2">Common questions</h2>
-              <span className="home-text36 bodyLarge">
+              <h2 className="home-text21 heading2">Common questions</h2>
+              <span className="home-text22 bodyLarge">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -338,7 +274,7 @@ const Home = (props) => {
           </div>
           <div className="home-separator"></div>
           <div className="home-container09">
-            <span className="bodySmall home-text39">
+            <span className="bodySmall home-text25">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
