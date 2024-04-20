@@ -103,80 +103,6 @@ const About = (props) => {
           <h1 className="about-banner-heading heading2">
             Expert Tax Services for Individuals and Businesses
           </h1>
-          <span className="about-banner-sub-heading bodySmall">
-            <span>
-              <span>
-                <span>
-                  At XYZ Tax Company, we specialize in providing comprehensive
-                  tax solutions tailored to meet your specific needs. Our team
-                  of experienced professionals is dedicated to maximizing your
-                  tax refund while ensuring compliance with all regulations.
-                  Whether you are an individual or a business owner, we are here
-                  to help you navigate the complexities of tax preparation and
-                  planning. With our expertise and personalized approach, you
-                  can trust us to handle all your tax-related matters
-                  efficiently and accurately.
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-            </span>
-            <span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-            </span>
-          </span>
           <button className="buttonFilled">Learn More</button>
         </div>
       </div>
@@ -193,7 +119,7 @@ const About = (props) => {
           </div>
           <div className="about-separator"></div>
           <div className="about-container2">
-            <span className="bodySmall about-text14">
+            <span className="bodySmall about-text">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="about-icon-group1">

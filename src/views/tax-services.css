@@ -193,10 +193,6 @@
   max-width: 800px;
   text-align: center;
 }
-.tax-services-hero-sub-heading {
-  font-size: 18px;
-  text-align: center;
-}
 .tax-services-pricing {
   flex: 0 0 auto;
   width: 100%;
@@ -214,20 +210,30 @@
   justify-content: center;
 }
 .tax-services-container02 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.tax-services-container03 {
   gap: var(--dl-space-space-unit);
+  width: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-pricing-sub-heading {
-  text-align: center;
+.tax-services-pricing-heading {
+  text-transform: none;
+  text-decoration: none;
 }
-.tax-services-container03 {
+.tax-services-container04 {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2%;
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
@@ -235,23 +241,23 @@
 .tax-services-pricing-card {
   width: var(--dl-size-size-xxlarge);
 }
-.tax-services-container04 {
+.tax-services-container05 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text016 {
+.tax-services-text {
   text-transform: uppercase;
 }
-.tax-services-container05 {
+.tax-services-container06 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text017 {
+.tax-services-text001 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -273,7 +279,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text018 {
+.tax-services-text002 {
   font-size: 1.5em;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -286,7 +292,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text019 {
+.tax-services-text003 {
   line-height: 150%;
 }
 .tax-services-sub-feature01 {
@@ -298,7 +304,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text020 {
+.tax-services-text004 {
   line-height: 150%;
 }
 .tax-services-sub-feature02 {
@@ -310,7 +316,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text021 {
+.tax-services-text005 {
   line-height: 150%;
 }
 .tax-services-sub-feature03 {
@@ -322,7 +328,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text022 {
+.tax-services-text006 {
   line-height: 150%;
 }
 .tax-services-button {
@@ -332,23 +338,23 @@
 .tax-services-pricing-card1 {
   width: var(--dl-size-size-xxlarge);
 }
-.tax-services-container06 {
+.tax-services-container07 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text026 {
+.tax-services-text010 {
   text-transform: uppercase;
 }
-.tax-services-container07 {
+.tax-services-container08 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text027 {
+.tax-services-text011 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -370,7 +376,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text028 {
+.tax-services-text012 {
   font-size: 1.5em;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -383,7 +389,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text029 {
+.tax-services-text013 {
   line-height: 150%;
 }
 .tax-services-sub-feature05 {
@@ -395,7 +401,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text030 {
+.tax-services-text014 {
   line-height: 150%;
 }
 .tax-services-sub-feature06 {
@@ -407,7 +413,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text031 {
+.tax-services-text015 {
   line-height: 150%;
 }
 .tax-services-sub-feature07 {
@@ -419,35 +425,38 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text035 {
+.tax-services-text019 {
   line-height: 150%;
 }
 .tax-services-button1 {
   width: 100%;
   display: none;
 }
-.tax-services-container08 {
+.tax-services-container09 {
   width: 100%;
   display: flex;
+  margin-top: 2%;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.tax-services-container09 {
+.tax-services-container10 {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-pricing-sub-heading1 {
-  text-align: center;
+.tax-services-pricing-heading1 {
+  text-transform: none;
+  text-decoration: none;
 }
-.tax-services-container10 {
+.tax-services-container11 {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2%;
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
@@ -455,25 +464,25 @@
 .tax-services-pricing-card2 {
   width: var(--dl-size-size-xxlarge);
 }
-.tax-services-container11 {
+.tax-services-container12 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text041 {
+.tax-services-text023 {
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.tax-services-container12 {
+.tax-services-container13 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text042 {
+.tax-services-text024 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -495,7 +504,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text043 {
+.tax-services-text025 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -508,7 +517,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text044 {
+.tax-services-text026 {
   line-height: 150%;
 }
 .tax-services-sub-feature09 {
@@ -520,10 +529,10 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text045 {
+.tax-services-text027 {
   line-height: 150%;
 }
-.tax-services-text046 {
+.tax-services-text028 {
   line-height: 150%;
 }
 .tax-services-sub-feature10 {
@@ -535,7 +544,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text050 {
+.tax-services-text032 {
   line-height: 150%;
 }
 .tax-services-sub-feature11 {
@@ -547,7 +556,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text054 {
+.tax-services-text036 {
   line-height: 150%;
 }
 .tax-services-sub-feature12 {
@@ -559,7 +568,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text057 {
+.tax-services-text039 {
   line-height: 150%;
 }
 .tax-services-sub-feature13 {
@@ -571,7 +580,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text060 {
+.tax-services-text042 {
   line-height: 150%;
 }
 .tax-services-sub-feature14 {
@@ -583,7 +592,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text063 {
+.tax-services-text045 {
   line-height: 150%;
 }
 .tax-services-button2 {
@@ -593,26 +602,26 @@
 .tax-services-pricing-card3 {
   width: var(--dl-size-size-xxlarge);
 }
-.tax-services-container13 {
+.tax-services-container14 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text064 {
+.tax-services-text046 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
 }
-.tax-services-container14 {
+.tax-services-container15 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text065 {
+.tax-services-text047 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -634,7 +643,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text066 {
+.tax-services-text048 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -647,7 +656,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text067 {
+.tax-services-text049 {
   line-height: 150%;
 }
 .tax-services-sub-feature16 {
@@ -659,7 +668,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text068 {
+.tax-services-text050 {
   line-height: 150%;
 }
 .tax-services-sub-feature17 {
@@ -671,7 +680,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text072 {
+.tax-services-text054 {
   line-height: 150%;
 }
 .tax-services-sub-feature18 {
@@ -683,7 +692,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text076 {
+.tax-services-text058 {
   line-height: 150%;
 }
 .tax-services-sub-feature19 {
@@ -695,7 +704,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text079 {
+.tax-services-text061 {
   line-height: 150%;
 }
 .tax-services-sub-feature20 {
@@ -707,7 +716,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text082 {
+.tax-services-text064 {
   line-height: 150%;
 }
 .tax-services-sub-feature21 {
@@ -719,7 +728,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text085 {
+.tax-services-text067 {
   line-height: 150%;
 }
 .tax-services-sub-feature22 {
@@ -731,7 +740,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text088 {
+.tax-services-text070 {
   line-height: 150%;
 }
 .tax-services-button3 {
@@ -741,26 +750,26 @@
 .tax-services-pricing-card4 {
   width: var(--dl-size-size-xxlarge);
 }
-.tax-services-container15 {
+.tax-services-container16 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text091 {
+.tax-services-text073 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
 }
-.tax-services-container16 {
+.tax-services-container17 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text092 {
+.tax-services-text074 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -782,7 +791,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text093 {
+.tax-services-text075 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -795,7 +804,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text094 {
+.tax-services-text076 {
   line-height: 150%;
 }
 .tax-services-sub-feature24 {
@@ -807,7 +816,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text095 {
+.tax-services-text077 {
   line-height: 150%;
 }
 .tax-services-sub-feature25 {
@@ -819,7 +828,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text096 {
+.tax-services-text078 {
   line-height: 150%;
 }
 .tax-services-sub-feature26 {
@@ -831,7 +840,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text100 {
+.tax-services-text082 {
   line-height: 150%;
 }
 .tax-services-sub-feature27 {
@@ -843,7 +852,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text103 {
+.tax-services-text085 {
   line-height: 150%;
 }
 .tax-services-sub-feature28 {
@@ -855,7 +864,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text106 {
+.tax-services-text088 {
   line-height: 150%;
 }
 .tax-services-sub-feature29 {
@@ -867,7 +876,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text109 {
+.tax-services-text091 {
   line-height: 150%;
 }
 .tax-services-sub-feature30 {
@@ -879,7 +888,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text112 {
+.tax-services-text094 {
   line-height: 150%;
 }
 .tax-services-button4 {
@@ -889,26 +898,26 @@
 .tax-services-pricing-card5 {
   width: var(--dl-size-size-xxlarge);
 }
-.tax-services-container17 {
+.tax-services-container18 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text115 {
+.tax-services-text097 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
 }
-.tax-services-container18 {
+.tax-services-container19 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text116 {
+.tax-services-text098 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -930,7 +939,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text117 {
+.tax-services-text099 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -943,7 +952,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text118 {
+.tax-services-text100 {
   line-height: 150%;
 }
 .tax-services-sub-feature32 {
@@ -955,7 +964,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text119 {
+.tax-services-text101 {
   line-height: 150%;
 }
 .tax-services-sub-feature33 {
@@ -967,7 +976,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text120 {
+.tax-services-text102 {
   line-height: 150%;
 }
 .tax-services-sub-feature34 {
@@ -979,7 +988,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text124 {
+.tax-services-text106 {
   line-height: 150%;
 }
 .tax-services-sub-feature35 {
@@ -991,7 +1000,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text127 {
+.tax-services-text109 {
   line-height: 150%;
 }
 .tax-services-sub-feature36 {
@@ -1003,7 +1012,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text130 {
+.tax-services-text112 {
   line-height: 150%;
 }
 .tax-services-sub-feature37 {
@@ -1015,7 +1024,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text133 {
+.tax-services-text115 {
   line-height: 150%;
 }
 .tax-services-sub-feature38 {
@@ -1027,35 +1036,38 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text136 {
+.tax-services-text118 {
   line-height: 150%;
 }
 .tax-services-button5 {
   width: 100%;
   display: none;
 }
-.tax-services-container19 {
+.tax-services-container20 {
   width: 100%;
   display: flex;
+  margin-top: 2%;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.tax-services-container20 {
+.tax-services-container21 {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-pricing-sub-heading2 {
-  text-align: center;
+.tax-services-pricing-heading2 {
+  text-transform: none;
+  text-decoration: none;
 }
-.tax-services-container21 {
+.tax-services-container22 {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2%;
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
@@ -1063,20 +1075,20 @@
 .tax-services-pricing-card6 {
   width: var(--dl-size-size-xxlarge);
 }
-.tax-services-container22 {
+.tax-services-container23 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text141 {
+.tax-services-text121 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
 }
-.tax-services-container23 {
+.tax-services-container24 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -1099,7 +1111,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text142 {
+.tax-services-text122 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -1112,7 +1124,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text143 {
+.tax-services-text123 {
   line-height: 150%;
 }
 .tax-services-sub-feature40 {
@@ -1124,10 +1136,10 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text144 {
+.tax-services-text124 {
   line-height: 150%;
 }
-.tax-services-text145 {
+.tax-services-text125 {
   line-height: 150%;
 }
 .tax-services-sub-feature41 {
@@ -1139,7 +1151,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text149 {
+.tax-services-text129 {
   line-height: 150%;
 }
 .tax-services-sub-feature42 {
@@ -1151,7 +1163,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text153 {
+.tax-services-text133 {
   line-height: 150%;
 }
 .tax-services-sub-feature43 {
@@ -1163,7 +1175,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text156 {
+.tax-services-text136 {
   line-height: 150%;
 }
 .tax-services-sub-feature44 {
@@ -1175,7 +1187,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text159 {
+.tax-services-text139 {
   line-height: 150%;
 }
 .tax-services-sub-feature45 {
@@ -1187,7 +1199,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text162 {
+.tax-services-text142 {
   line-height: 150%;
 }
 .tax-services-link {
@@ -1205,7 +1217,7 @@
   align-items: center;
   justify-content: center;
 }
-.tax-services-faq {
+.tax-services-download {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
@@ -1217,24 +1229,24 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-fourunits);
 }
-.tax-services-container24 {
+.tax-services-container25 {
   display: flex;
   max-width: 35%;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text167 {
+.tax-services-text144 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.tax-services-text168 {
-  text-align: left;
-}
-.tax-services-container25 {
+.tax-services-container26 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+.tax-services-link1 {
+  text-decoration: none;
 }
 .tax-services-footer {
   flex: 0 0 auto;
@@ -1244,7 +1256,7 @@
   align-items: center;
   justify-content: center;
 }
-.tax-services-container26 {
+.tax-services-container27 {
   gap: var(--dl-space-space-unit);
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -1286,7 +1298,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.tax-services-container27 {
+.tax-services-container28 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1327,17 +1339,7 @@
   .tax-services-hero-heading {
     text-align: center;
   }
-  .tax-services-hero-sub-heading {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
-  .tax-services-pricing-sub-heading {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
-  .tax-services-container03 {
+  .tax-services-container04 {
     align-items: center;
     flex-direction: column;
   }
@@ -1351,12 +1353,7 @@
     padding: var(--dl-space-space-twounits);
     max-width: 450px;
   }
-  .tax-services-pricing-sub-heading1 {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
-  .tax-services-container10 {
+  .tax-services-container11 {
     align-items: center;
     flex-direction: column;
   }
@@ -1380,12 +1377,7 @@
     padding: var(--dl-space-space-twounits);
     max-width: 450px;
   }
-  .tax-services-pricing-sub-heading2 {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
-  .tax-services-container21 {
+  .tax-services-container22 {
     align-items: center;
     flex-direction: column;
   }
@@ -1393,11 +1385,6 @@
     width: 100%;
     padding: var(--dl-space-space-twounits);
     max-width: 450px;
-  }
-  .tax-services-text168 {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 767px) {
@@ -1425,15 +1412,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .tax-services-hero-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .tax-services-pricing-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .tax-services-container03 {
+  .tax-services-container04 {
     align-items: center;
     flex-direction: column;
   }
@@ -1449,11 +1428,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .tax-services-pricing-sub-heading1 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .tax-services-container10 {
+  .tax-services-container11 {
     align-items: center;
     flex-direction: column;
   }
@@ -1481,11 +1456,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .tax-services-pricing-sub-heading2 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .tax-services-container21 {
+  .tax-services-container22 {
     align-items: center;
     flex-direction: column;
   }
@@ -1495,18 +1466,14 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .tax-services-faq {
+  .tax-services-download {
     flex-direction: column;
   }
-  .tax-services-container24 {
+  .tax-services-container25 {
     max-width: 100%;
     align-self: center;
     align-items: center;
     justify-content: center;
-  }
-  .tax-services-text168 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
   }
   .tax-services-footer1 {
     padding-left: var(--dl-space-space-twounits);
@@ -1518,12 +1485,12 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .tax-services-container27 {
+  .tax-services-container28 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .tax-services-text171 {
+  .tax-services-text150 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -1558,12 +1525,12 @@
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .tax-services-container27 {
+  .tax-services-container28 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .tax-services-text171 {
+  .tax-services-text150 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

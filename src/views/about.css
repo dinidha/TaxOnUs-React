@@ -184,12 +184,6 @@
 .about-banner-heading {
   text-align: center;
 }
-.about-banner-sub-heading {
-  max-width: var(--dl-size-size-maxwidth);
-  margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  margin-bottom: var(--dl-space-space-twounits);
-}
 .about-footer {
   flex: 0 0 auto;
   width: 100%;
@@ -268,11 +262,6 @@
   width: 24px;
   height: 24px;
 }
-@media(max-width: 991px) {
-  .about-banner-sub-heading {
-    max-width: 100%;
-  }
-}
 @media(max-width: 767px) {
   .about-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
@@ -298,10 +287,6 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .about-banner-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
   .about-footer1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -317,7 +302,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .about-text14 {
+  .about-text {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -354,7 +339,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .about-text14 {
+  .about-text {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

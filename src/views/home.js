@@ -188,143 +188,9 @@ const Home = (props) => {
         <div className="featuresContainer">
           <div className="home-features1">
             <div className="home-container02">
-              <span className="overline">
-                <span>features</span>
-                <br></br>
-              </span>
               <h2 className="home-features-heading heading2">
                 Our Tax Services
               </h2>
-              <span className="home-features-sub-heading bodyLarge">
-                <span>
-                  <span>
-                    <span>
-                      Discover the range of professional tax services we offer
-                      to meet your needs
-                    </span>
-                    <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                  </span>
-                  <span>
-                    <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                    <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                    <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                  </span>
-                  <span>
-                    <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                    <span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
             </div>
             <div className="home-container03">
               <FeatureCard1
@@ -352,80 +218,6 @@ const Home = (props) => {
         <div className="bannerContainer home-banner1">
           <div className="home-container04">
             <h1 className="home-banner-heading">TYPES OF TAXES</h1>
-            <span className="home-banner-sub-heading bodySmall">
-              <span>
-                <span>
-                  <span>
-                    At XYZ Tax Company, we specialize in providing comprehensive
-                    tax solutions tailored to meet your specific needs. Our team
-                    of experienced professionals is dedicated to maximizing your
-                    tax refund while ensuring compliance with all regulations.
-                    Whether you are an individual or a business owner, we are
-                    here to help you navigate the complexities of tax
-                    preparation and planning. With our expertise and
-                    personalized approach, you can trust us to handle all your
-                    tax-related matters efficiently and accurately.
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-            </span>
             <div className="home-container05">
               <ul className="list">
                 <li className="list-item">
@@ -500,8 +292,8 @@ const Home = (props) => {
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="home-text80 heading2">Common questions</h2>
-              <span className="home-text81 bodyLarge">
+              <h2 className="home-text35 heading2">Common questions</h2>
+              <span className="home-text36 bodyLarge">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
@@ -546,7 +338,7 @@ const Home = (props) => {
           </div>
           <div className="home-separator"></div>
           <div className="home-container09">
-            <span className="bodySmall home-text84">
+            <span className="bodySmall home-text39">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="home-icon-group1">

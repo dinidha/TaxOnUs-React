@@ -139,19 +139,9 @@ const AccountingServices = (props) => {
         <div className="accounting-services-pricing1">
           <div className="pricingContainer">
             <div className="accounting-services-container02">
-              <span className="accounting-services-pricing-sub-heading bodyLarge">
-                <span>
-                  <span>
-                    Our pricing plans are designed to cater to individuals,
-                    families, and businesses of all sizes.
-                  </span>
-                </span>
-              </span>
-            </div>
-            <div className="accounting-services-container03">
               <div className="freePricingCard accounting-services-pricing-card">
-                <div className="accounting-services-container04">
-                  <span className="accounting-services-text002 heading3">
+                <div className="accounting-services-container03">
+                  <span className="accounting-services-text heading3">
                     Small business
                   </span>
                   <span>
@@ -162,24 +152,24 @@ const AccountingServices = (props) => {
                     <br></br>
                   </span>
                 </div>
-                <div className="accounting-services-container05">
-                  <span className="accounting-services-text006">LKR</span>
+                <div className="accounting-services-container04">
+                  <span className="accounting-services-text004">LKR</span>
                   <span className="accounting-services-free-plan-price">
                     28,500
                   </span>
-                  <span className="accounting-services-text007">/ month</span>
+                  <span className="accounting-services-text005">/ month</span>
                 </div>
                 <div className="accounting-services-feature-container">
                   <div className="accounting-services-feature">
-                    <h1 className="accounting-services-text008">
+                    <h1 className="accounting-services-text006">
                       Account reconciliation
                     </h1>
                     <div className="accounting-services-sub-feature">
-                      <span className="accounting-services-text009">✔</span>
+                      <span className="accounting-services-text007">✔</span>
                       <span>Bank accounts up to 3</span>
                     </div>
                     <div className="accounting-services-sub-feature01">
-                      <span className="accounting-services-text010">✔</span>
+                      <span className="accounting-services-text008">✔</span>
                       <span>
                         Credit card accounts up to 3
                         <span
@@ -190,7 +180,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature02">
-                      <span className="accounting-services-text011">✔</span>
+                      <span className="accounting-services-text009">✔</span>
                       <span>
                         Reconcile electronic transactions into an Accounting
                         Package
@@ -201,20 +191,20 @@ const AccountingServices = (props) => {
                         />
                       </span>
                     </div>
-                    <span className="accounting-services-text012">
+                    <span className="accounting-services-text010">
                       LKR 9000
                     </span>
                   </div>
                   <div className="accounting-services-feature01">
-                    <h1 className="accounting-services-text013">
+                    <h1 className="accounting-services-text011">
                       Monthly financials
                     </h1>
                     <div className="accounting-services-sub-feature03">
-                      <span className="accounting-services-text014">✔</span>
+                      <span className="accounting-services-text012">✔</span>
                       <span>Balance Sheet</span>
                     </div>
                     <div className="accounting-services-sub-feature04">
-                      <span className="accounting-services-text015">✔</span>
+                      <span className="accounting-services-text013">✔</span>
                       <span>
                         <span>
                           Profit &amp; Loss
@@ -235,7 +225,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature05">
-                      <span className="accounting-services-text019">✔</span>
+                      <span className="accounting-services-text017">✔</span>
                       <span>
                         <span>
                           General Ledger
@@ -256,7 +246,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature06">
-                      <span className="accounting-services-text023">✔</span>
+                      <span className="accounting-services-text021">✔</span>
                       <span>
                         <span>Statement of Cash Flows</span>
                         <br></br>
@@ -269,13 +259,13 @@ const AccountingServices = (props) => {
                         </span>
                       </span>
                     </div>
-                    <span className="accounting-services-text027">
+                    <span className="accounting-services-text025">
                       <span>LKR 8000</span>
                       <br></br>
                     </span>
                   </div>
                   <div className="accounting-services-feature02">
-                    <h1 className="accounting-services-text030">
+                    <h1 className="accounting-services-text028">
                       Stock Records
                       <span
                         dangerouslySetInnerHTML={{
@@ -284,15 +274,15 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature07">
-                      <span className="accounting-services-text031">✔</span>
+                      <span className="accounting-services-text029">✔</span>
                       <span>Stock report up to 20 items</span>
                     </div>
-                    <span className="accounting-services-text032">
+                    <span className="accounting-services-text030">
                       LKR 2500
                     </span>
                   </div>
                   <div className="accounting-services-feature03">
-                    <h1 className="accounting-services-text033">
+                    <h1 className="accounting-services-text031">
                       Employee Funds
                       <span
                         dangerouslySetInnerHTML={{
@@ -301,11 +291,11 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature08">
-                      <span className="accounting-services-text034">✔</span>
+                      <span className="accounting-services-text032">✔</span>
                       <span>EPF &amp; ETF returns up to 5 Emps</span>
                     </div>
                     <div className="accounting-services-sub-feature09">
-                      <span className="accounting-services-text035">✔</span>
+                      <span className="accounting-services-text033">✔</span>
                       <span>
                         Annual return
                         <span
@@ -315,12 +305,12 @@ const AccountingServices = (props) => {
                         />
                       </span>
                     </div>
-                    <span className="accounting-services-text036">
+                    <span className="accounting-services-text034">
                       LKR 2500
                     </span>
                   </div>
                   <div className="accounting-services-feature04">
-                    <h1 className="accounting-services-text037">
+                    <h1 className="accounting-services-text035">
                       Advice
                       <span
                         dangerouslySetInnerHTML={{
@@ -329,21 +319,21 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature10">
-                      <span className="accounting-services-text038">✔</span>
+                      <span className="accounting-services-text036">✔</span>
                       <span>
                         Accountant and business service meeting up to an hour
                       </span>
                     </div>
-                    <span className="accounting-services-text039">
+                    <span className="accounting-services-text037">
                       LKR 2000
                     </span>
                   </div>
                   <div className="accounting-services-feature05">
-                    <h1 className="accounting-services-text040">
+                    <h1 className="accounting-services-text038">
                       Software and portals
                     </h1>
                     <div className="accounting-services-sub-feature11">
-                      <span className="accounting-services-text041">✔</span>
+                      <span className="accounting-services-text039">✔</span>
                       <span>
                         Essential document storage
                         <span
@@ -354,7 +344,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature12">
-                      <span className="accounting-services-text042">✔</span>
+                      <span className="accounting-services-text040">✔</span>
                       <span>
                         Accounting software setup &amp; maintenance
                         <span
@@ -365,7 +355,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature13">
-                      <span className="accounting-services-text043">✔</span>
+                      <span className="accounting-services-text041">✔</span>
                       <span>
                         <span>
                           Expense management with one criterion
@@ -386,7 +376,7 @@ const AccountingServices = (props) => {
                         </span>
                       </span>
                     </div>
-                    <span className="accounting-services-text048">
+                    <span className="accounting-services-text046">
                       LKR 4500
                     </span>
                   </div>
@@ -396,8 +386,8 @@ const AccountingServices = (props) => {
                 </button>
               </div>
               <div className="freePricingCard accounting-services-pricing-card1">
-                <div className="accounting-services-container06">
-                  <span className="accounting-services-text049 heading3">
+                <div className="accounting-services-container05">
+                  <span className="accounting-services-text047 heading3">
                     Small business plus
                   </span>
                   <span>
@@ -408,24 +398,24 @@ const AccountingServices = (props) => {
                     <br></br>
                   </span>
                 </div>
-                <div className="accounting-services-container07">
-                  <span className="accounting-services-text053">LKR</span>
+                <div className="accounting-services-container06">
+                  <span className="accounting-services-text051">LKR</span>
                   <span className="accounting-services-free-plan-price1">
                     28,500
                   </span>
-                  <span className="accounting-services-text054">/ month</span>
+                  <span className="accounting-services-text052">/ month</span>
                 </div>
                 <div className="accounting-services-feature-container1">
                   <div className="accounting-services-feature06">
-                    <h1 className="accounting-services-text055">
+                    <h1 className="accounting-services-text053">
                       Account reconciliation
                     </h1>
                     <div className="accounting-services-sub-feature14">
-                      <span className="accounting-services-text056">✔</span>
+                      <span className="accounting-services-text054">✔</span>
                       <span>Bank accounts up to 5</span>
                     </div>
                     <div className="accounting-services-sub-feature15">
-                      <span className="accounting-services-text057">✔</span>
+                      <span className="accounting-services-text055">✔</span>
                       <span>
                         Credit card accounts up to 5
                         <span
@@ -436,7 +426,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature16">
-                      <span className="accounting-services-text058">✔</span>
+                      <span className="accounting-services-text056">✔</span>
                       <span>
                         Reconcile electronic transactions into an Accounting
                         Package
@@ -447,20 +437,20 @@ const AccountingServices = (props) => {
                         />
                       </span>
                     </div>
-                    <span className="accounting-services-text059">
+                    <span className="accounting-services-text057">
                       LKR 12000
                     </span>
                   </div>
                   <div className="accounting-services-feature07">
-                    <h1 className="accounting-services-text060">
+                    <h1 className="accounting-services-text058">
                       Monthly financials
                     </h1>
                     <div className="accounting-services-sub-feature17">
-                      <span className="accounting-services-text061">✔</span>
+                      <span className="accounting-services-text059">✔</span>
                       <span>Balance Sheet</span>
                     </div>
                     <div className="accounting-services-sub-feature18">
-                      <span className="accounting-services-text062">✔</span>
+                      <span className="accounting-services-text060">✔</span>
                       <span>
                         <span>
                           Profit &amp; Loss
@@ -481,7 +471,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature19">
-                      <span className="accounting-services-text066">✔</span>
+                      <span className="accounting-services-text064">✔</span>
                       <span>
                         <span>
                           General Ledger
@@ -502,7 +492,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature20">
-                      <span className="accounting-services-text070">✔</span>
+                      <span className="accounting-services-text068">✔</span>
                       <span>
                         <span>Statement of Cash Flows</span>
                         <br></br>
@@ -515,13 +505,13 @@ const AccountingServices = (props) => {
                         </span>
                       </span>
                     </div>
-                    <span className="accounting-services-text074">
+                    <span className="accounting-services-text072">
                       <span>LKR 10000</span>
                       <br></br>
                     </span>
                   </div>
                   <div className="accounting-services-feature08">
-                    <h1 className="accounting-services-text077">
+                    <h1 className="accounting-services-text075">
                       Stock Records
                       <span
                         dangerouslySetInnerHTML={{
@@ -530,15 +520,15 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature21">
-                      <span className="accounting-services-text078">✔</span>
+                      <span className="accounting-services-text076">✔</span>
                       <span>Stock report up to 20 items</span>
                     </div>
-                    <span className="accounting-services-text079">
+                    <span className="accounting-services-text077">
                       LKR 4000
                     </span>
                   </div>
                   <div className="accounting-services-feature09">
-                    <h1 className="accounting-services-text080">
+                    <h1 className="accounting-services-text078">
                       Employee Funds
                       <span
                         dangerouslySetInnerHTML={{
@@ -547,11 +537,11 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature22">
-                      <span className="accounting-services-text081">✔</span>
+                      <span className="accounting-services-text079">✔</span>
                       <span>EPF &amp; ETF returns up to 5 Emps</span>
                     </div>
                     <div className="accounting-services-sub-feature23">
-                      <span className="accounting-services-text082">✔</span>
+                      <span className="accounting-services-text080">✔</span>
                       <span>
                         Annual return
                         <span
@@ -561,12 +551,12 @@ const AccountingServices = (props) => {
                         />
                       </span>
                     </div>
-                    <span className="accounting-services-text083">
+                    <span className="accounting-services-text081">
                       LKR 4000
                     </span>
                   </div>
                   <div className="accounting-services-feature10">
-                    <h1 className="accounting-services-text084">
+                    <h1 className="accounting-services-text082">
                       Advice
                       <span
                         dangerouslySetInnerHTML={{
@@ -575,17 +565,17 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature24">
-                      <span className="accounting-services-text085">✔</span>
+                      <span className="accounting-services-text083">✔</span>
                       <span>
                         CFO and business service meeting up to an hour
                       </span>
                     </div>
-                    <span className="accounting-services-text086">
+                    <span className="accounting-services-text084">
                       LKR 5000
                     </span>
                   </div>
                   <div className="accounting-services-feature11">
-                    <h1 className="accounting-services-text087">
+                    <h1 className="accounting-services-text085">
                       Training
                       <span
                         dangerouslySetInnerHTML={{
@@ -594,7 +584,7 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature25">
-                      <span className="accounting-services-text088">✔</span>
+                      <span className="accounting-services-text086">✔</span>
                       <span>
                         Necessary software training
                         <span
@@ -604,16 +594,16 @@ const AccountingServices = (props) => {
                         />
                       </span>
                     </div>
-                    <span className="accounting-services-text089">
+                    <span className="accounting-services-text087">
                       LKR 5000
                     </span>
                   </div>
                   <div className="accounting-services-feature12">
-                    <h1 className="accounting-services-text090">
+                    <h1 className="accounting-services-text088">
                       Software and portals
                     </h1>
                     <div className="accounting-services-sub-feature26">
-                      <span className="accounting-services-text091">✔</span>
+                      <span className="accounting-services-text089">✔</span>
                       <span>
                         Essential document storage
                         <span
@@ -624,7 +614,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature27">
-                      <span className="accounting-services-text092">✔</span>
+                      <span className="accounting-services-text090">✔</span>
                       <span>
                         Accounting software setup &amp; maintenance
                         <span
@@ -635,11 +625,11 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature28">
-                      <span className="accounting-services-text093">✔</span>
+                      <span className="accounting-services-text091">✔</span>
                       <span>Expense management with two criteria</span>
                     </div>
                     <div className="accounting-services-sub-feature29">
-                      <span className="accounting-services-text094">✔</span>
+                      <span className="accounting-services-text092">✔</span>
                       <span>
                         Optional monthly
                         <span
@@ -650,7 +640,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature30">
-                      <span className="accounting-services-text095">✔</span>
+                      <span className="accounting-services-text093">✔</span>
                       <span>
                         Optional monthly performance report with key performance
                         indicators (KPIs)
@@ -662,7 +652,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature31">
-                      <span className="accounting-services-text096">✔</span>
+                      <span className="accounting-services-text094">✔</span>
                       <span>
                         Class tracking
                         <span
@@ -672,7 +662,7 @@ const AccountingServices = (props) => {
                         />
                       </span>
                     </div>
-                    <span className="accounting-services-text097">
+                    <span className="accounting-services-text095">
                       LKR 7500
                     </span>
                   </div>
@@ -682,8 +672,8 @@ const AccountingServices = (props) => {
                 </button>
               </div>
               <div className="freePricingCard accounting-services-pricing-card2">
-                <div className="accounting-services-container08">
-                  <span className="accounting-services-text098 heading3">
+                <div className="accounting-services-container07">
+                  <span className="accounting-services-text096 heading3">
                     Small business Advanced
                   </span>
                   <span>
@@ -692,23 +682,23 @@ const AccountingServices = (props) => {
                     <br></br>
                   </span>
                 </div>
-                <div className="accounting-services-container09">
+                <div className="accounting-services-container08">
                   <span className="accounting-services-free-plan-price2">
                     Custom Pricing
                   </span>
-                  <span className="accounting-services-text102"></span>
+                  <span className="accounting-services-text100"></span>
                 </div>
                 <div className="accounting-services-feature-container2">
                   <div className="accounting-services-feature13">
-                    <h1 className="accounting-services-text103">
+                    <h1 className="accounting-services-text101">
                       Account reconciliation
                     </h1>
                     <div className="accounting-services-sub-feature32">
-                      <span className="accounting-services-text104">✔</span>
+                      <span className="accounting-services-text102">✔</span>
                       <span>Bank accounts up to 5</span>
                     </div>
                     <div className="accounting-services-sub-feature33">
-                      <span className="accounting-services-text105">✔</span>
+                      <span className="accounting-services-text103">✔</span>
                       <span>
                         Credit card accounts up to 5
                         <span
@@ -719,7 +709,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature34">
-                      <span className="accounting-services-text106">✔</span>
+                      <span className="accounting-services-text104">✔</span>
                       <span>
                         Reconcile electronic transactions into an Accounting
                         Package
@@ -732,15 +722,15 @@ const AccountingServices = (props) => {
                     </div>
                   </div>
                   <div className="accounting-services-feature14">
-                    <h1 className="accounting-services-text107">
+                    <h1 className="accounting-services-text105">
                       Monthly financials
                     </h1>
                     <div className="accounting-services-sub-feature35">
-                      <span className="accounting-services-text108">✔</span>
+                      <span className="accounting-services-text106">✔</span>
                       <span>Balance Sheet</span>
                     </div>
                     <div className="accounting-services-sub-feature36">
-                      <span className="accounting-services-text109">✔</span>
+                      <span className="accounting-services-text107">✔</span>
                       <span>
                         <span>
                           Profit &amp; Loss
@@ -761,7 +751,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature37">
-                      <span className="accounting-services-text113">✔</span>
+                      <span className="accounting-services-text111">✔</span>
                       <span>
                         <span>
                           General Ledger
@@ -782,7 +772,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature38">
-                      <span className="accounting-services-text117">✔</span>
+                      <span className="accounting-services-text115">✔</span>
                       <span>
                         <span>Statement of Cash Flows</span>
                         <br></br>
@@ -797,7 +787,7 @@ const AccountingServices = (props) => {
                     </div>
                   </div>
                   <div className="accounting-services-feature15">
-                    <h1 className="accounting-services-text121">
+                    <h1 className="accounting-services-text119">
                       Stock Records
                       <span
                         dangerouslySetInnerHTML={{
@@ -806,12 +796,12 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature39">
-                      <span className="accounting-services-text122">✔</span>
+                      <span className="accounting-services-text120">✔</span>
                       <span>Stock system</span>
                     </div>
                   </div>
                   <div className="accounting-services-feature16">
-                    <h1 className="accounting-services-text123">
+                    <h1 className="accounting-services-text121">
                       Employee Funds
                       <span
                         dangerouslySetInnerHTML={{
@@ -820,11 +810,11 @@ const AccountingServices = (props) => {
                       />
                     </h1>
                     <div className="accounting-services-sub-feature40">
-                      <span className="accounting-services-text124">✔</span>
+                      <span className="accounting-services-text122">✔</span>
                       <span>EPF &amp; ETF returns up to 5 Emps</span>
                     </div>
                     <div className="accounting-services-sub-feature41">
-                      <span className="accounting-services-text125">✔</span>
+                      <span className="accounting-services-text123">✔</span>
                       <span>
                         Annual return
                         <span
@@ -835,7 +825,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature42">
-                      <span className="accounting-services-text126">✔</span>
+                      <span className="accounting-services-text124">✔</span>
                       <span>
                         PAYE
                         <span
@@ -847,19 +837,19 @@ const AccountingServices = (props) => {
                     </div>
                   </div>
                   <div className="accounting-services-feature17">
-                    <h1 className="accounting-services-text127">
+                    <h1 className="accounting-services-text125">
                       Advice &amp; Training
                     </h1>
                     <div className="accounting-services-sub-feature43">
-                      <span className="accounting-services-text128">✔</span>
+                      <span className="accounting-services-text126">✔</span>
                       <span>General business consulting</span>
                     </div>
                     <div className="accounting-services-sub-feature44">
-                      <span className="accounting-services-text129">✔</span>
+                      <span className="accounting-services-text127">✔</span>
                       <span>Strategic planning</span>
                     </div>
                     <div className="accounting-services-sub-feature45">
-                      <span className="accounting-services-text130">✔</span>
+                      <span className="accounting-services-text128">✔</span>
                       <span>
                         Tax planning
                         <span
@@ -870,20 +860,20 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature46">
-                      <span className="accounting-services-text131">✔</span>
+                      <span className="accounting-services-text129">✔</span>
                       <span>Necessary software training</span>
                     </div>
                     <div className="accounting-services-sub-feature47">
-                      <span className="accounting-services-text132">✔</span>
+                      <span className="accounting-services-text130">✔</span>
                       <span>Business advisory service</span>
                     </div>
                   </div>
                   <div className="accounting-services-feature18">
-                    <h1 className="accounting-services-text133">
+                    <h1 className="accounting-services-text131">
                       Software and portals
                     </h1>
                     <div className="accounting-services-sub-feature48">
-                      <span className="accounting-services-text134">✔</span>
+                      <span className="accounting-services-text132">✔</span>
                       <span>
                         Essential document storage
                         <span
@@ -894,7 +884,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature49">
-                      <span className="accounting-services-text135">✔</span>
+                      <span className="accounting-services-text133">✔</span>
                       <span>
                         Accounting software setup &amp; maintenance
                         <span
@@ -905,11 +895,11 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature50">
-                      <span className="accounting-services-text136">✔</span>
+                      <span className="accounting-services-text134">✔</span>
                       <span>Expense management</span>
                     </div>
                     <div className="accounting-services-sub-feature51">
-                      <span className="accounting-services-text137">✔</span>
+                      <span className="accounting-services-text135">✔</span>
                       <span>
                         Optional monthly performance report with key performance
                         indicators (KPIs)
@@ -921,7 +911,7 @@ const AccountingServices = (props) => {
                       </span>
                     </div>
                     <div className="accounting-services-sub-feature52">
-                      <span className="accounting-services-text138">✔</span>
+                      <span className="accounting-services-text136">✔</span>
                       <span>
                         Class and location tracking
                         <span
@@ -943,7 +933,7 @@ const AccountingServices = (props) => {
       </div>
       <div className="accounting-services-footer">
         <footer className="footerContainer accounting-services-footer1">
-          <div className="accounting-services-container10">
+          <div className="accounting-services-container09">
             <span className="TaxOnUs">TAXPROS</span>
             <nav className="accounting-services-nav1">
               <span className="bodySmall">Services</span>
@@ -959,8 +949,8 @@ const AccountingServices = (props) => {
             </nav>
           </div>
           <div className="accounting-services-separator"></div>
-          <div className="accounting-services-container11">
-            <span className="bodySmall accounting-services-text139">
+          <div className="accounting-services-container10">
+            <span className="bodySmall accounting-services-text137">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="accounting-services-icon-group1">

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Question1 from '../components/question1'
 import './tax-services.css'
 
 const TaxServices = (props) => {
@@ -113,73 +112,9 @@ const TaxServices = (props) => {
       <div className="tax-services-hero">
         <div className="heroContainer tax-services-hero1">
           <div className="tax-services-container01">
-            <h1 className="tax-services-hero-heading">
-              Tailor made packages for your need
+            <h1 className="tax-services-hero-heading heading1">
+              Tailor made packages for your needs
             </h1>
-            <span className="tax-services-hero-sub-heading bodyLarge">
-              <span>
-                <span>
-                  <span>Your Trusted Tax Experts</span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-            </span>
           </div>
         </div>
       </div>
@@ -187,171 +122,159 @@ const TaxServices = (props) => {
         <div className="tax-services-pricing1">
           <div className="pricingContainer">
             <div className="tax-services-container02">
-              <h2 className="heading2">
-                Choose the Right Plan for Your Tax Needs
-              </h2>
-              <span className="tax-services-pricing-sub-heading bodyLarge">
-                <span>
-                  <span>
-                    Our pricing plans are designed to cater to individuals,
-                    families, and businesses of all sizes.
-                  </span>
-                </span>
-              </span>
-            </div>
-            <div className="tax-services-container03">
-              <div className="tax-services-pricing-card freePricingCard">
-                <div className="tax-services-container04">
-                  <span className="tax-services-text016 heading3">
-                    Tax payer registration
-                  </span>
-                </div>
-                <div className="tax-services-container05">
-                  <span className="tax-services-text017">LKR</span>
-                  <span className="tax-services-free-plan-price">17,000</span>
-                </div>
-                <div className="tax-services-feature-container">
-                  <div className="tax-services-feature">
-                    <h1 className="tax-services-text018">
-                      Account reconciliation
-                    </h1>
-                    <div className="tax-services-sub-feature">
-                      <span className="tax-services-text019">✔</span>
-                      <span>Obtaining your (IRD) PIN</span>
-                    </div>
-                    <div className="tax-services-sub-feature01">
-                      <span className="tax-services-text020">✔</span>
-                      <span>
-                        Tax Type Registration and advice
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </div>
-                    <div className="tax-services-sub-feature02">
-                      <span className="tax-services-text021">✔</span>
-                      <span>
-                        Registration Confirmation follow up
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </div>
-                    <div className="tax-services-sub-feature03">
-                      <span className="tax-services-text022">✔</span>
-                      <span>
-                        <span>Record Keeping</span>
-                        <br></br>
-                        <br></br>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <button className="tax-services-button buttonOutline">
-                  Continue with Free
-                </button>
+              <div className="tax-services-container03">
+                <h2 className="tax-services-pricing-heading heading3">
+                  Choose the Right Plan for Your Tax Needs
+                </h2>
               </div>
-              <div className="tax-services-pricing-card1 freePricingCard">
-                <div className="tax-services-container06">
-                  <span className="tax-services-text026 heading3">
-                    Tax payer registration
-                  </span>
-                </div>
-                <div className="tax-services-container07">
-                  <span className="tax-services-text027">LKR</span>
-                  <span className="tax-services-free-plan-price1">25,400</span>
-                </div>
-                <div className="tax-services-feature-container1">
-                  <div className="tax-services-feature1">
-                    <h1 className="tax-services-text028">VAT registration</h1>
-                    <div className="tax-services-sub-feature04">
-                      <span className="tax-services-text029">✔</span>
-                      <span>Document preparation</span>
-                    </div>
-                    <div className="tax-services-sub-feature05">
-                      <span className="tax-services-text030">✔</span>
-                      <span>
-                        Coordination between IRD and the taxpayer
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </div>
-                    <div className="tax-services-sub-feature06">
-                      <span className="tax-services-text031">✔</span>
-                      <span>
-                        <span>Advice on VAT Registration</span>
-                        <br></br>
+              <div className="tax-services-container04">
+                <div className="tax-services-pricing-card freePricingCard">
+                  <div className="tax-services-container05">
+                    <span className="tax-services-text heading3">
+                      Tax payer registration
+                    </span>
+                  </div>
+                  <div className="tax-services-container06">
+                    <span className="tax-services-text001">LKR</span>
+                    <span className="tax-services-free-plan-price">17,000</span>
+                  </div>
+                  <div className="tax-services-feature-container">
+                    <div className="tax-services-feature">
+                      <h1 className="tax-services-text002">
+                        Account reconciliation
+                      </h1>
+                      <div className="tax-services-sub-feature">
+                        <span className="tax-services-text003">✔</span>
+                        <span>Obtaining your (IRD) PIN</span>
+                      </div>
+                      <div className="tax-services-sub-feature01">
+                        <span className="tax-services-text004">✔</span>
                         <span>
+                          Tax Type Registration and advice
                           <span
                             dangerouslySetInnerHTML={{
                               __html: ' ',
                             }}
                           />
                         </span>
-                      </span>
-                    </div>
-                    <div className="tax-services-sub-feature07">
-                      <span className="tax-services-text035">✔</span>
-                      <span>
-                        <span>VAT Registration</span>
-                        <br></br>
-                        <br></br>
-                      </span>
+                      </div>
+                      <div className="tax-services-sub-feature02">
+                        <span className="tax-services-text005">✔</span>
+                        <span>
+                          Registration Confirmation follow up
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="tax-services-sub-feature03">
+                        <span className="tax-services-text006">✔</span>
+                        <span>
+                          <span>Record Keeping</span>
+                          <br></br>
+                          <br></br>
+                        </span>
+                      </div>
                     </div>
                   </div>
+                  <button className="tax-services-button buttonOutline">
+                    Continue with Free
+                  </button>
                 </div>
-                <button className="tax-services-button1 buttonOutline">
-                  Continue with Free
-                </button>
+                <div className="tax-services-pricing-card1 freePricingCard">
+                  <div className="tax-services-container07">
+                    <span className="tax-services-text010 heading3">
+                      Tax payer registration
+                    </span>
+                  </div>
+                  <div className="tax-services-container08">
+                    <span className="tax-services-text011">LKR</span>
+                    <span className="tax-services-free-plan-price1">
+                      25,400
+                    </span>
+                  </div>
+                  <div className="tax-services-feature-container1">
+                    <div className="tax-services-feature1">
+                      <h1 className="tax-services-text012">VAT registration</h1>
+                      <div className="tax-services-sub-feature04">
+                        <span className="tax-services-text013">✔</span>
+                        <span>Document preparation</span>
+                      </div>
+                      <div className="tax-services-sub-feature05">
+                        <span className="tax-services-text014">✔</span>
+                        <span>
+                          Coordination between IRD and the taxpayer
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="tax-services-sub-feature06">
+                        <span className="tax-services-text015">✔</span>
+                        <span>
+                          <span>Advice on VAT Registration</span>
+                          <br></br>
+                          <span>
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: ' ',
+                              }}
+                            />
+                          </span>
+                        </span>
+                      </div>
+                      <div className="tax-services-sub-feature07">
+                        <span className="tax-services-text019">✔</span>
+                        <span>
+                          <span>VAT Registration</span>
+                          <br></br>
+                          <br></br>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <button className="tax-services-button1 buttonOutline">
+                    Continue with Free
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="tax-services-container08">
-              <div className="tax-services-container09">
-                <h2 className="heading2">
+            <div className="tax-services-container09">
+              <div className="tax-services-container10">
+                <h2 className="tax-services-pricing-heading1 heading3">
                   Individual Income Tax (IIT) consultation packages
                 </h2>
-                <span className="tax-services-pricing-sub-heading1 bodyLarge">
-                  <span>
-                    <span>
-                      Our pricing plans are designed to cater to individuals,
-                      families, and businesses of all sizes.
-                    </span>
-                  </span>
-                </span>
               </div>
-              <div className="tax-services-container10">
+              <div className="tax-services-container11">
                 <div className="tax-services-pricing-card2 freePricingCard">
-                  <div className="tax-services-container11">
-                    <span className="tax-services-text041">
+                  <div className="tax-services-container12">
+                    <span className="tax-services-text023">
                       Employment Income or Investment income only
                     </span>
                   </div>
-                  <div className="tax-services-container12">
-                    <span className="tax-services-text042">LKR</span>
+                  <div className="tax-services-container13">
+                    <span className="tax-services-text024">LKR</span>
                     <span className="tax-services-free-plan-price2">
                       17,000
                     </span>
                   </div>
                   <div className="tax-services-feature-container2">
                     <div className="tax-services-feature2">
-                      <h1 className="tax-services-text043">
+                      <h1 className="tax-services-text025">
                         Discussion of Personal tax matters with a CERTIFIED TAX
                         ADVISOR
                       </h1>
                       <div className="tax-services-sub-feature08">
-                        <span className="tax-services-text044">✔</span>
+                        <span className="tax-services-text026">✔</span>
                         <span>Personal tax Preparation Services</span>
                       </div>
                       <div className="tax-services-sub-feature09">
-                        <span className="tax-services-text045">✔</span>
-                        <span className="tax-services-text046">✔</span>
+                        <span className="tax-services-text027">✔</span>
+                        <span className="tax-services-text028">✔</span>
                         <span>
                           <span>Tax registration</span>
                           <br></br>
@@ -365,7 +288,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature10">
-                        <span className="tax-services-text050">✔</span>
+                        <span className="tax-services-text032">✔</span>
                         <span>
                           <span>
                             Tax advisory service
@@ -386,14 +309,14 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature11">
-                        <span className="tax-services-text054">✔</span>
+                        <span className="tax-services-text036">✔</span>
                         <span>
                           <span>Quarterly tax payments advices</span>
                           <br></br>
                         </span>
                       </div>
                       <div className="tax-services-sub-feature12">
-                        <span className="tax-services-text057">✔</span>
+                        <span className="tax-services-text039">✔</span>
                         <span>
                           <span>
                             Tax Reminders on Tax due dates &amp; Payment
@@ -402,7 +325,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature13">
-                        <span className="tax-services-text060">✔</span>
+                        <span className="tax-services-text042">✔</span>
                         <span>
                           <span>
                             Preparation &amp; Filing of Final Tax Return online
@@ -411,7 +334,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature14">
-                        <span className="tax-services-text063">✔</span>
+                        <span className="tax-services-text045">✔</span>
                         <span>Post Return filing support</span>
                       </div>
                     </div>
@@ -421,29 +344,29 @@ const TaxServices = (props) => {
                   </button>
                 </div>
                 <div className="tax-services-pricing-card3 freePricingCard">
-                  <div className="tax-services-container13">
-                    <span className="tax-services-text064">
+                  <div className="tax-services-container14">
+                    <span className="tax-services-text046">
                       Employment Income &amp; Investment income only
                     </span>
                   </div>
-                  <div className="tax-services-container14">
-                    <span className="tax-services-text065">LKR</span>
+                  <div className="tax-services-container15">
+                    <span className="tax-services-text047">LKR</span>
                     <span className="tax-services-free-plan-price3">
                       21,200
                     </span>
                   </div>
                   <div className="tax-services-feature-container3">
                     <div className="tax-services-feature3">
-                      <h1 className="tax-services-text066">
+                      <h1 className="tax-services-text048">
                         Discussion of Personal tax matters with a CERTIFIED TAX
                         ADVISOR
                       </h1>
                       <div className="tax-services-sub-feature15">
-                        <span className="tax-services-text067">✔</span>
+                        <span className="tax-services-text049">✔</span>
                         <span>Personal tax Preparation Services</span>
                       </div>
                       <div className="tax-services-sub-feature16">
-                        <span className="tax-services-text068">✔</span>
+                        <span className="tax-services-text050">✔</span>
                         <span>
                           <span>Tax registration</span>
                           <br></br>
@@ -457,7 +380,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature17">
-                        <span className="tax-services-text072">✔</span>
+                        <span className="tax-services-text054">✔</span>
                         <span>
                           <span>Quarterly tax payments advices</span>
                           <br></br>
@@ -471,7 +394,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature18">
-                        <span className="tax-services-text076">✔</span>
+                        <span className="tax-services-text058">✔</span>
                         <span>
                           <span>
                             Tax Reminders on Tax due dates &amp; Payment
@@ -480,7 +403,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature19">
-                        <span className="tax-services-text079">✔</span>
+                        <span className="tax-services-text061">✔</span>
                         <span>
                           <span>
                             Advising &amp; filing of Statement of Estimated Tax
@@ -490,7 +413,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature20">
-                        <span className="tax-services-text082">✔</span>
+                        <span className="tax-services-text064">✔</span>
                         <span>
                           <span>
                             Preparation &amp; Filing of Final Tax Return online
@@ -499,14 +422,14 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature21">
-                        <span className="tax-services-text085">✔</span>
+                        <span className="tax-services-text067">✔</span>
                         <span>
                           <span>Post Return filing support</span>
                           <br></br>
                         </span>
                       </div>
                       <div className="tax-services-sub-feature22">
-                        <span className="tax-services-text088">✔</span>
+                        <span className="tax-services-text070">✔</span>
                         <span>
                           <span>
                             For timely &amp; effective tax completion, it is
@@ -522,30 +445,30 @@ const TaxServices = (props) => {
                   </button>
                 </div>
                 <div className="tax-services-pricing-card4 freePricingCard">
-                  <div className="tax-services-container15">
-                    <span className="tax-services-text091">
+                  <div className="tax-services-container16">
+                    <span className="tax-services-text073">
                       Investment Income / Employment Income/Business Income
                       (without Financial statements)
                     </span>
                   </div>
-                  <div className="tax-services-container16">
-                    <span className="tax-services-text092">LKR</span>
+                  <div className="tax-services-container17">
+                    <span className="tax-services-text074">LKR</span>
                     <span className="tax-services-free-plan-price4">
                       25,400
                     </span>
                   </div>
                   <div className="tax-services-feature-container4">
                     <div className="tax-services-feature4">
-                      <h1 className="tax-services-text093">
+                      <h1 className="tax-services-text075">
                         Discussion of Personal tax matters with a CERTIFIED TAX
                         ADVISOR
                       </h1>
                       <div className="tax-services-sub-feature23">
-                        <span className="tax-services-text094">✔</span>
+                        <span className="tax-services-text076">✔</span>
                         <span>Personal tax Preparation Services</span>
                       </div>
                       <div className="tax-services-sub-feature24">
-                        <span className="tax-services-text095">✔</span>
+                        <span className="tax-services-text077">✔</span>
                         <span>
                           Tax registration
                           <span
@@ -556,7 +479,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature25">
-                        <span className="tax-services-text096">✔</span>
+                        <span className="tax-services-text078">✔</span>
                         <span>
                           <span>
                             Tax advisory service
@@ -577,14 +500,14 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature26">
-                        <span className="tax-services-text100">✔</span>
+                        <span className="tax-services-text082">✔</span>
                         <span>
                           <span>Quarterly tax payments advices</span>
                           <br></br>
                         </span>
                       </div>
                       <div className="tax-services-sub-feature27">
-                        <span className="tax-services-text103">✔</span>
+                        <span className="tax-services-text085">✔</span>
                         <span>
                           <span>
                             Tax Reminders on Tax due dates &amp; Payment
@@ -593,7 +516,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature28">
-                        <span className="tax-services-text106">✔</span>
+                        <span className="tax-services-text088">✔</span>
                         <span>
                           <span>
                             Advising &amp; filing of Statement of Estimated Tax
@@ -603,7 +526,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature29">
-                        <span className="tax-services-text109">✔</span>
+                        <span className="tax-services-text091">✔</span>
                         <span>
                           <span>
                             Preparation &amp; Filing of Final Tax Return online
@@ -612,7 +535,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature30">
-                        <span className="tax-services-text112">✔</span>
+                        <span className="tax-services-text094">✔</span>
                         <span>
                           <span>Post Return filing support</span>
                           <br></br>
@@ -625,30 +548,30 @@ const TaxServices = (props) => {
                   </button>
                 </div>
                 <div className="tax-services-pricing-card5 freePricingCard">
-                  <div className="tax-services-container17">
-                    <span className="tax-services-text115">
+                  <div className="tax-services-container18">
+                    <span className="tax-services-text097">
                       Investment Income / Employment Income/Business Income with
                       Financial statements)
                     </span>
                   </div>
-                  <div className="tax-services-container18">
-                    <span className="tax-services-text116">LKR</span>
+                  <div className="tax-services-container19">
+                    <span className="tax-services-text098">LKR</span>
                     <span className="tax-services-free-plan-price5">
                       33,900
                     </span>
                   </div>
                   <div className="tax-services-feature-container5">
                     <div className="tax-services-feature5">
-                      <h1 className="tax-services-text117">
+                      <h1 className="tax-services-text099">
                         Discussion of Personal tax matters with a CERTIFIED TAX
                         ADVISOR
                       </h1>
                       <div className="tax-services-sub-feature31">
-                        <span className="tax-services-text118">✔</span>
+                        <span className="tax-services-text100">✔</span>
                         <span>Personal tax Preparation Services</span>
                       </div>
                       <div className="tax-services-sub-feature32">
-                        <span className="tax-services-text119">✔</span>
+                        <span className="tax-services-text101">✔</span>
                         <span>
                           Tax registration
                           <span
@@ -659,7 +582,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature33">
-                        <span className="tax-services-text120">✔</span>
+                        <span className="tax-services-text102">✔</span>
                         <span>
                           <span>Tax advisory service</span>
                           <br></br>
@@ -673,14 +596,14 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature34">
-                        <span className="tax-services-text124">✔</span>
+                        <span className="tax-services-text106">✔</span>
                         <span>
                           <span>Quarterly tax payments advices</span>
                           <br></br>
                         </span>
                       </div>
                       <div className="tax-services-sub-feature35">
-                        <span className="tax-services-text127">✔</span>
+                        <span className="tax-services-text109">✔</span>
                         <span>
                           <span>
                             Tax Reminders on Tax due dates &amp; Payment
@@ -689,7 +612,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature36">
-                        <span className="tax-services-text130">✔</span>
+                        <span className="tax-services-text112">✔</span>
                         <span>
                           <span>
                             Advising &amp; filing of Statement of Estimated Tax
@@ -699,7 +622,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature37">
-                        <span className="tax-services-text133">✔</span>
+                        <span className="tax-services-text115">✔</span>
                         <span>
                           <span>
                             Preparation &amp; Filing of Final Tax Return online
@@ -708,7 +631,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature38">
-                        <span className="tax-services-text136">✔</span>
+                        <span className="tax-services-text118">✔</span>
                         <span>
                           <span>Post Return filing support</span>
                           <br></br>
@@ -722,47 +645,39 @@ const TaxServices = (props) => {
                 </div>
               </div>
             </div>
-            <div className="tax-services-container19">
-              <div className="tax-services-container20">
-                <h2 className="heading2">
+            <div className="tax-services-container20">
+              <div className="tax-services-container21">
+                <h2 className="tax-services-pricing-heading2 heading3">
                   Companies/Charitable  Institutions/NGOs &amp; Other
                   Organizations
                 </h2>
-                <span className="tax-services-pricing-sub-heading2 bodyLarge">
-                  <span>
-                    <span>
-                      Our pricing plans are designed to cater to individuals,
-                      families, and businesses of all sizes.
-                    </span>
-                  </span>
-                </span>
               </div>
-              <div className="tax-services-container21">
+              <div className="tax-services-container22">
                 <div className="tax-services-pricing-card6 freePricingCard">
-                  <div className="tax-services-container22">
-                    <span className="tax-services-text141">
+                  <div className="tax-services-container23">
+                    <span className="tax-services-text121">
                       Investment Income / /Business Income (with/OR without
                       Financial statements)
                     </span>
                   </div>
-                  <div className="tax-services-container23">
+                  <div className="tax-services-container24">
                     <span className="tax-services-free-plan-price6">
                       Fee on A quotation Basis
                     </span>
                   </div>
                   <div className="tax-services-feature-container6">
                     <div className="tax-services-feature6">
-                      <h1 className="tax-services-text142">
+                      <h1 className="tax-services-text122">
                         Discussion of Personal tax matters with a CERTIFIED TAX
                         ADVISOR
                       </h1>
                       <div className="tax-services-sub-feature39">
-                        <span className="tax-services-text143">✔</span>
+                        <span className="tax-services-text123">✔</span>
                         <span>Personal tax Preparation Services</span>
                       </div>
                       <div className="tax-services-sub-feature40">
-                        <span className="tax-services-text144">✔</span>
-                        <span className="tax-services-text145">✔</span>
+                        <span className="tax-services-text124">✔</span>
+                        <span className="tax-services-text125">✔</span>
                         <span>
                           <span>Tax registration</span>
                           <br></br>
@@ -776,7 +691,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature41">
-                        <span className="tax-services-text149">✔</span>
+                        <span className="tax-services-text129">✔</span>
                         <span>
                           <span>
                             Tax advisory service
@@ -797,14 +712,14 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature42">
-                        <span className="tax-services-text153">✔</span>
+                        <span className="tax-services-text133">✔</span>
                         <span>
                           <span>Quarterly tax payments advices</span>
                           <br></br>
                         </span>
                       </div>
                       <div className="tax-services-sub-feature43">
-                        <span className="tax-services-text156">✔</span>
+                        <span className="tax-services-text136">✔</span>
                         <span>
                           <span>
                             Tax Reminders on Tax due dates &amp; Payment
@@ -813,7 +728,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature44">
-                        <span className="tax-services-text159">✔</span>
+                        <span className="tax-services-text139">✔</span>
                         <span>
                           <span>
                             Preparation &amp; Filing of Final Tax Return online
@@ -822,7 +737,7 @@ const TaxServices = (props) => {
                         </span>
                       </div>
                       <div className="tax-services-sub-feature45">
-                        <span className="tax-services-text162">✔</span>
+                        <span className="tax-services-text142">✔</span>
                         <span>Post Return filing support</span>
                       </div>
                     </div>
@@ -845,50 +760,31 @@ const TaxServices = (props) => {
       </div>
       <div className="tax-services-download-center">
         <div className="faqContainer">
-          <div className="tax-services-faq">
-            <div className="tax-services-container24">
-              <span className="overline">
-                <span>FAQ</span>
-                <br></br>
-              </span>
-              <h2 className="tax-services-text167 heading2">
-                Common questions
-              </h2>
-              <span className="tax-services-text168 bodyLarge">
-                <span>
-                  Here are some of the most common questions that we get.
-                </span>
-                <br></br>
-              </span>
-            </div>
+          <div className="tax-services-download">
             <div className="tax-services-container25">
-              <Question1
-                answer="We offer a wide range of tax services including tax preparation, tax planning, and IRS problem resolution."
-                question="What tax services do you offer?"
-              ></Question1>
-              <Question1
-                answer="You can easily schedule a consultation by filling out the contact form on our website or by giving us a call."
-                question="How can I schedule a consultation with your tax experts?"
-              ></Question1>
-              <Question1
-                answer="Yes, we provide assistance with filing back taxes and can help you navigate through the process efficiently."
-                question="Do you offer assistance with filing back taxes?"
-              ></Question1>
-              <Question1
-                answer="Our team of experienced tax professionals, personalized approach to each client, and commitment to delivering exceptional service set us apart from others."
-                question="What sets your tax company apart from others?"
-              ></Question1>
-              <Question1
-                answer="We take client confidentiality and data security very seriously. Our systems are encrypted and we have strict protocols in place to safeguard all client information."
-                question="How do you ensure client confidentiality and data security?"
-              ></Question1>
+              <h2 className="tax-services-text144 heading2">Download Center</h2>
+            </div>
+            <div className="tax-services-container26">
+              <h3>
+                <span>Download link 1</span>
+                <br></br>
+              </h3>
+              <a
+                href="https://www.google.lk"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="tax-services-link1"
+              >
+                <span>Download here</span>
+                <br></br>
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="tax-services-footer">
         <footer className="footerContainer tax-services-footer1">
-          <div className="tax-services-container26">
+          <div className="tax-services-container27">
             <span className="TaxOnUs">TAXPROS</span>
             <nav className="tax-services-nav1">
               <span className="bodySmall">Services</span>
@@ -898,8 +794,8 @@ const TaxServices = (props) => {
             </nav>
           </div>
           <div className="tax-services-separator"></div>
-          <div className="tax-services-container27">
-            <span className="bodySmall tax-services-text171">
+          <div className="tax-services-container28">
+            <span className="bodySmall tax-services-text150">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="tax-services-icon-group1">

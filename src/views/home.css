@@ -239,10 +239,6 @@
 .home-features-heading {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-features-sub-heading {
-  font-size: 18px;
-  text-align: center;
-}
 .home-container03 {
   width: 100%;
   display: grid;
@@ -266,12 +262,6 @@
 }
 .home-banner-heading {
   text-align: center;
-}
-.home-banner-sub-heading {
-  max-width: var(--dl-size-size-maxwidth);
-  margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  margin-bottom: var(--dl-space-space-twounits);
 }
 .home-container05 {
   display: flex;
@@ -342,10 +332,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text80 {
+.home-text35 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text81 {
+.home-text36 {
   text-align: left;
 }
 .home-container07 {
@@ -450,15 +440,7 @@
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .home-features-sub-heading {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
-  .home-banner-sub-heading {
-    max-width: 100%;
-  }
-  .home-text81 {
+  .home-text36 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -497,20 +479,12 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-features-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
   .home-container03 {
     grid-template-columns: 1fr;
   }
   .home-banner1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
-  }
-  .home-banner-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
   }
   .home-faq1 {
     flex-direction: column;
@@ -521,7 +495,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text81 {
+  .home-text36 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -540,7 +514,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text84 {
+  .home-text39 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -596,7 +570,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text84 {
+  .home-text39 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
