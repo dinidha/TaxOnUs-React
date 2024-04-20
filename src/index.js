@@ -9,9 +9,10 @@ import {
 
 import './style.css'
 import Home from './views/home'
-import Services from './views/services'
-import About from './views/about'
 import Contact from './views/contact'
+import TaxServices from './views/tax-services'
+import AccountingServices from './views/accounting-services'
+import About from './views/about'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -19,9 +20,14 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Home} exact path="/" />
-        <Route component={Services} exact path="/services" />
-        <Route component={About} exact path="/about" />
         <Route component={Contact} exact path="/contact" />
+        <Route component={TaxServices} exact path="/tax-services" />
+        <Route
+          component={AccountingServices}
+          exact
+          path="/accounting-services"
+        />
+        <Route component={About} exact path="/about" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

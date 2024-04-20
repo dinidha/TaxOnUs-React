@@ -1,0 +1,1493 @@
+.accounting-services-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.accounting-services-header {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.accounting-services-logo {
+  text-decoration: none;
+}
+.accounting-services-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.accounting-services-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.accounting-services-nav12 {
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  border-width: 1px;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.accounting-services-nav22 {
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+}
+.accounting-services-nav32 {
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+}
+.accounting-services-nav42 {
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+}
+.accounting-services-nav52 {
+  margin-left: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+}
+.accounting-services-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.accounting-services-login {
+  margin-right: 32px;
+}
+.accounting-services-burger-menu {
+  display: none;
+}
+.accounting-services-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.accounting-services-mobile-menu1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateX(100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.accounting-services-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.accounting-services-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.accounting-services-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accounting-services-icon02 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.accounting-services-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.accounting-services-nav121 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.accounting-services-nav221 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.accounting-services-nav321 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.accounting-services-nav421 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.accounting-services-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.accounting-services-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.accounting-services-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.accounting-services-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.accounting-services-hero {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 96px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.accounting-services-container01 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accounting-services-hero-heading {
+  max-width: 800px;
+  text-align: center;
+}
+.accounting-services-pricing {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accounting-services-pricing1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accounting-services-container02 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accounting-services-pricing-sub-heading {
+  text-align: center;
+}
+.accounting-services-container03 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.accounting-services-container04 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accounting-services-text002 {
+  text-transform: uppercase;
+}
+.accounting-services-container05 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.accounting-services-text006 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.accounting-services-free-plan-price {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.accounting-services-text007 {
+  font-size: 1.15rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.accounting-services-feature-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.accounting-services-feature {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text008 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text009 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature01 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text010 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature02 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text011 {
+  line-height: 150%;
+}
+.accounting-services-text012 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature01 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text013 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature03 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text014 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature04 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text015 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature05 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text019 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature06 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text023 {
+  line-height: 150%;
+}
+.accounting-services-text027 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature02 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text030 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature07 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text031 {
+  line-height: 150%;
+}
+.accounting-services-text032 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature03 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text033 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature08 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text034 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature09 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text035 {
+  line-height: 150%;
+}
+.accounting-services-text036 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature04 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text037 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature10 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text038 {
+  line-height: 150%;
+}
+.accounting-services-text039 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature05 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text040 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature11 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text041 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature12 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text042 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature13 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text043 {
+  line-height: 150%;
+}
+.accounting-services-text048 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-button {
+  width: 100%;
+  display: none;
+}
+.accounting-services-container06 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accounting-services-text049 {
+  text-transform: uppercase;
+}
+.accounting-services-container07 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.accounting-services-text053 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.accounting-services-free-plan-price1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.accounting-services-text054 {
+  font-size: 1.15rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.accounting-services-feature-container1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.accounting-services-feature06 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text055 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature14 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text056 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature15 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text057 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature16 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text058 {
+  line-height: 150%;
+}
+.accounting-services-text059 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature07 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text060 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature17 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text061 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature18 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text062 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature19 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text066 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature20 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text070 {
+  line-height: 150%;
+}
+.accounting-services-text074 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature08 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text077 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature21 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text078 {
+  line-height: 150%;
+}
+.accounting-services-text079 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature09 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text080 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature22 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text081 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature23 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text082 {
+  line-height: 150%;
+}
+.accounting-services-text083 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature10 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text084 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature24 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text085 {
+  line-height: 150%;
+}
+.accounting-services-text086 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature11 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text087 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature25 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text088 {
+  line-height: 150%;
+}
+.accounting-services-text089 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-feature12 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text090 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature26 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text091 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature27 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text092 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature28 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text093 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature29 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text094 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature30 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text095 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature31 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text096 {
+  line-height: 150%;
+}
+.accounting-services-text097 {
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-unit);
+}
+.accounting-services-button1 {
+  width: 100%;
+  display: none;
+}
+.accounting-services-container08 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accounting-services-text098 {
+  text-transform: uppercase;
+}
+.accounting-services-container09 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.accounting-services-free-plan-price2 {
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 600;
+}
+.accounting-services-text102 {
+  font-size: 1.15rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.accounting-services-feature-container2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.accounting-services-feature13 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text103 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature32 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text104 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature33 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text105 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature34 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text106 {
+  line-height: 150%;
+}
+.accounting-services-feature14 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text107 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature35 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text108 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature36 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text109 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature37 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text113 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature38 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text117 {
+  line-height: 150%;
+}
+.accounting-services-feature15 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text121 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature39 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text122 {
+  line-height: 150%;
+}
+.accounting-services-feature16 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text123 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature40 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text124 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature41 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text125 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature42 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text126 {
+  line-height: 150%;
+}
+.accounting-services-feature17 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text127 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature43 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text128 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature44 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text129 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature45 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text130 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature46 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text131 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature47 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text132 {
+  line-height: 150%;
+}
+.accounting-services-feature18 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.accounting-services-text133 {
+  font-size: 1.5em;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.accounting-services-sub-feature48 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text134 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature49 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text135 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature50 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text136 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature51 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text137 {
+  line-height: 150%;
+}
+.accounting-services-sub-feature52 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.accounting-services-text138 {
+  line-height: 150%;
+}
+.accounting-services-button2 {
+  width: 100%;
+  display: none;
+}
+.accounting-services-footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accounting-services-container10 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.accounting-services-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.accounting-services-nav222 {
+  margin-left: var(--dl-space-space-unit);
+}
+.accounting-services-nav322 {
+  margin-left: var(--dl-space-space-unit);
+}
+.accounting-services-nav422 {
+  margin-left: var(--dl-space-space-unit);
+}
+.accounting-services-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.accounting-services-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.accounting-services-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.accounting-services-icon10 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.accounting-services-icon12 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.accounting-services-icon14 {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 991px) {
+  .accounting-services-hero1 {
+    flex-direction: column;
+  }
+  .accounting-services-container01 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .accounting-services-hero-heading {
+    text-align: center;
+  }
+  .accounting-services-pricing-sub-heading {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .accounting-services-container03 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .accounting-services-pricing-card {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    max-width: 450px;
+  }
+  .accounting-services-pricing-card1 {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    max-width: 450px;
+  }
+  .accounting-services-pricing-card2 {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    max-width: 450px;
+  }
+}
+@media(max-width: 767px) {
+  .accounting-services-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .accounting-services-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .accounting-services-nav121 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .accounting-services-nav221 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .accounting-services-nav321 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .accounting-services-nav421 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .accounting-services-hero1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .accounting-services-pricing-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .accounting-services-container03 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .accounting-services-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .accounting-services-pricing-card1 {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .accounting-services-pricing-card2 {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .accounting-services-footer1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .accounting-services-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .accounting-services-container11 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .accounting-services-text139 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .accounting-services-navbar-interactive {
+    height: 99px;
+    padding: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .accounting-services-desktop-menu {
+    display: none;
+  }
+  .accounting-services-burger-menu {
+    display: flex;
+  }
+  .accounting-services-mobile-menu1 {
+    padding: 16px;
+  }
+  .accounting-services-hero1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .accounting-services-container01 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .accounting-services-footer1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .accounting-services-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .accounting-services-container11 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .accounting-services-text139 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

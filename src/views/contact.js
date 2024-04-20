@@ -19,7 +19,9 @@ const Contact = (props) => {
           data-thq="thq-navbar"
           className="navbarContainer contact-navbar-interactive"
         >
-          <span className="TaxOnUs">Taxonus</span>
+          <Link to="/" className="contact-logo TaxOnUs">
+            Taxonus
+          </Link>
           <div data-thq="thq-navbar-nav" className="contact-desktop-menu">
             <nav className="contact-links">
               <Link to="/" className="contact-nav12 bodySmall">
@@ -28,10 +30,16 @@ const Contact = (props) => {
               <Link to="/about" className="contact-nav22 bodySmall">
                 About Us
               </Link>
-              <Link to="/services" className="contact-nav32 bodySmall">
-                Services
+              <Link to="/tax-services" className="contact-nav32">
+                Tax Services
               </Link>
-              <Link to="/contact" className="contact-nav42 bodySmall">
+              <Link
+                to="/accounting-services"
+                className="contact-nav42 bodySmall"
+              >
+                Accounting Services
+              </Link>
+              <Link to="/contact" className="contact-nav52 bodySmall">
                 Contact Us
               </Link>
             </nav>

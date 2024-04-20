@@ -2,12 +2,12 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './feature-card.css'
+import './feature-card1.css'
 
-const FeatureCard = (props) => {
+const FeatureCard1 = (props) => {
   return (
     <div
-      className={`featuresCard feature-card-feature-card ${props.rootClassName} `}
+      className={`featuresCard feature-card1-feature-card ${props.rootClassName} `}
     >
       <svg viewBox="0 0 1024 1024" className="featuresIcon">
         <path
@@ -15,24 +15,24 @@ const FeatureCard = (props) => {
           className=""
         ></path>
       </svg>
-      <div className="feature-card-container">
-        <h3 className="feature-card-text heading3">{props.heading}</h3>
+      <div className="feature-card1-container">
+        <h3 className="feature-card1-text heading3">{props.heading}</h3>
         <span className="bodySmall">{props.subHeading}</span>
       </div>
     </div>
   )
 }
 
-FeatureCard.defaultProps = {
+FeatureCard1.defaultProps = {
+  heading: 'Tax advisory',
   rootClassName: '',
   subHeading: 'Obtain Tax advisory services from our expert team.',
-  heading: 'Tax advisory',
 }
 
-FeatureCard.propTypes = {
+FeatureCard1.propTypes = {
+  heading: PropTypes.string,
   rootClassName: PropTypes.string,
   subHeading: PropTypes.string,
-  heading: PropTypes.string,
 }
 
-export default FeatureCard
+export default FeatureCard1

@@ -15,6 +15,9 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
 }
+.contact-logo {
+  text-decoration: none;
+}
 .contact-desktop-menu {
   flex: 1;
   display: flex;
@@ -28,18 +31,53 @@
   justify-content: center;
 }
 .contact-nav12 {
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  border-width: 1px;
+  padding-left: 2%;
+  padding-right: 2%;
   text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
 }
 .contact-nav22 {
-  margin-left: var(--dl-space-space-unit);
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  padding-left: 2%;
+  padding-right: 2%;
   text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
 }
 .contact-nav32 {
-  margin-left: var(--dl-space-space-unit);
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  padding-left: 2%;
+  padding-right: 2%;
   text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
 }
 .contact-nav42 {
-  margin-left: var(--dl-space-space-unit);
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+}
+.contact-nav52 {
+  margin-left: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
   text-decoration: none;
 }
 .contact-buttons {
@@ -693,11 +731,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .contact-desktop-menu {
-    display: none;
-  }
   .contact-burger-menu {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -800,7 +834,15 @@
 }
 @media(max-width: 479px) {
   .contact-navbar-interactive {
+    height: 99px;
     padding: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .contact-desktop-menu {
+    display: none;
+  }
+  .contact-burger-menu {
+    display: flex;
   }
   .contact-mobile-menu1 {
     padding: 16px;

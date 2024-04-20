@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import FeatureCard from '../components/feature-card'
+import FeatureCard1 from '../components/feature-card1'
 import Question1 from '../components/question1'
 import './home.css'
 
@@ -19,7 +19,9 @@ const Home = (props) => {
           data-thq="thq-navbar"
           className="navbarContainer home-navbar-interactive"
         >
-          <span className="TaxOnUs">Taxonus</span>
+          <Link to="/" className="home-logo TaxOnUs">
+            Taxonus
+          </Link>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
               <Link to="/" className="home-nav12 bodySmall">
@@ -28,10 +30,13 @@ const Home = (props) => {
               <Link to="/about" className="home-nav22 bodySmall">
                 About Us
               </Link>
-              <Link to="/services" className="home-nav32 bodySmall">
-                Services
+              <Link to="/tax-services" className="home-nav32">
+                Tax Services
               </Link>
-              <Link to="/contact" className="home-nav42 bodySmall">
+              <Link to="/accounting-services" className="home-nav42 bodySmall">
+                Accounting Services
+              </Link>
+              <Link to="/contact" className="home-nav52 bodySmall">
                 Contact Us
               </Link>
             </nav>
@@ -99,7 +104,7 @@ const Home = (props) => {
         <div className="heroContainer home-hero1">
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">
-              Maximize Your Tax Refund
+              Minimize Your Tax Liability
             </h1>
             <span className="home-hero-sub-heading bodyLarge">
               <span>
@@ -166,8 +171,15 @@ const Home = (props) => {
               </span>
             </span>
             <div className="home-btn-group">
-              <button className="buttonFilled">Get Started Now</button>
-              <button className="buttonFlat">Learn More →</button>
+              <Link
+                to="/tax-services"
+                className="home-hero-button1 buttonFilled"
+              >
+                Get Started Now
+              </Link>
+              <Link to="/about" className="home-hero-button2 buttonFlat">
+                Learn More →
+              </Link>
             </div>
           </div>
         </div>
@@ -191,527 +203,312 @@ const Home = (props) => {
                       to meet your needs
                     </span>
                     <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                     </span>
                   </span>
                   <span>
                     <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                     </span>
                     <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                     </span>
                   </span>
                 </span>
                 <span>
                   <span>
                     <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                     </span>
                     <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                     </span>
                   </span>
                   <span>
                     <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                     </span>
                     <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
                     </span>
                   </span>
                 </span>
               </span>
             </div>
             <div className="home-container03">
-              <FeatureCard
-                heading="Expert Tax Advice"
-                subHeading="Get personalized tax advice from our team of experienced professionals"
-              ></FeatureCard>
-              <FeatureCard
-                heading="Tax Preparation Services"
-                subHeading="Let us handle the complex tax preparation process for you accurately and efficiently"
-              ></FeatureCard>
-              <FeatureCard
-                heading="Audit Support"
-                subHeading="Receive expert support and guidance in case of an audit by tax authorities"
-              ></FeatureCard>
-              <FeatureCard
-                heading="Tax Planning Strategies"
-                subHeading="Benefit from tailored tax planning strategies to optimize your financial situation"
-              ></FeatureCard>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="home-pricing">
-        <div className="pricingContainer">
-          <div className="home-container04">
-            <span className="overline">
-              <span>Pricing</span>
-              <br></br>
-            </span>
-            <h2 className="heading2">
-              Choose the Right Plan for Your Tax Needs
-            </h2>
-            <span className="home-pricing-sub-heading bodyLarge">
-              <span>
-                <span>
-                  Our pricing plans are designed to cater to individuals,
-                  families, and businesses of all sizes.
-                </span>
-              </span>
-            </span>
-          </div>
-          <div className="home-container05">
-            <div className="freePricingCard home-pricing-card">
-              <div className="home-container06">
-                <span className="home-text036 heading3">Small business</span>
-                <span>
-                  <span className="bodySmall">
-                    (up to 120 transactions/month)
-                  </span>
-                  <br></br>
-                  <br></br>
-                </span>
-              </div>
-              <div className="home-container07">
-                <span className="home-text040">LKR</span>
-                <span className="home-free-plan-price">28,500</span>
-                <span className="home-text041">/ month</span>
-              </div>
-              <div className="home-feature-container">
-                <div className="home-feature">
-                  <h1 className="home-text042">Account reconciliation</h1>
-                  <div className="home-sub-feature">
-                    <span className="home-text043">✔</span>
-                    <span>Bank accounts up to 3</span>
-                  </div>
-                  <div className="home-sub-feature01">
-                    <span className="home-text044">✔</span>
-                    <span>
-                      Credit card accounts up to 3
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                  <div className="home-sub-feature02">
-                    <span className="home-text045">✔</span>
-                    <span>
-                      Reconcile electronic transactions into an Accounting
-                      Package
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                  <span className="home-text046">LKR 9000</span>
-                </div>
-                <div className="home-feature1">
-                  <h1 className="home-text047">Monthly financials</h1>
-                  <div className="home-sub-feature03">
-                    <span className="home-text048">✔</span>
-                    <span>Balance Sheet</span>
-                  </div>
-                  <div className="home-sub-feature04">
-                    <span className="home-text049">✔</span>
-                    <span>
-                      <span>
-                        Profit &amp; Loss
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <br></br>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="home-sub-feature05">
-                    <span className="home-text053">✔</span>
-                    <span>
-                      <span>
-                        General Ledger
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <br></br>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                  </div>
-                  <div className="home-sub-feature06">
-                    <span className="home-text057">✔</span>
-                    <span>
-                      <span>Statement of Cash Flows</span>
-                      <br></br>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                  </div>
-                  <span className="home-text061">
-                    <span>LKR 8000</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-feature2">
-                  <h1 className="home-text064">
-                    Stock Records
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </h1>
-                  <div className="home-sub-feature07">
-                    <span className="home-text065">✔</span>
-                    <span>Stock report up to 20 items</span>
-                  </div>
-                  <span className="home-text066">LKR 2500</span>
-                </div>
-                <div className="home-feature3">
-                  <h1 className="home-text067">
-                    Employee Funds
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </h1>
-                  <div className="home-sub-feature08">
-                    <span className="home-text068">✔</span>
-                    <span>EPF &amp; ETF returns up to 5 Emps</span>
-                  </div>
-                  <div className="home-sub-feature09">
-                    <span className="home-text069">✔</span>
-                    <span>
-                      Annual return
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                  <span className="home-text070">LKR 2500</span>
-                </div>
-                <div className="home-feature4">
-                  <h1 className="home-text071">
-                    Advice
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </h1>
-                  <div className="home-sub-feature10">
-                    <span className="home-text072">✔</span>
-                    <span>
-                      Accountant and business service meeting up to an hour
-                    </span>
-                  </div>
-                  <span className="home-text073">LKR 2000</span>
-                </div>
-                <div className="home-feature5">
-                  <h1 className="home-text074">Software and portals</h1>
-                  <div className="home-sub-feature11">
-                    <span className="home-text075">✔</span>
-                    <span>
-                      Essential document storage
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                  <div className="home-sub-feature12">
-                    <span className="home-text076">✔</span>
-                    <span>
-                      Accounting software setup &amp; maintenance
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </div>
-                  <div className="home-sub-feature13">
-                    <span className="home-text077">✔</span>
-                    <span>
-                      <span>
-                        Expense management with one criterion
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <br></br>
-                      <br></br>
-                      <span>
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                    </span>
-                  </div>
-                  <span className="home-text082">LKR 4500</span>
-                </div>
-              </div>
-              <button className="home-button buttonOutline">
-                Continue with Free
-              </button>
-            </div>
-            <div className="basicPricingCard home-pricing-card1">
-              <div className="home-container08">
-                <span className="home-text083 heading3">
-                  Small business plus
-                </span>
-                <span>(125-240 transactions/month)</span>
-              </div>
-              <div className="home-container09">
-                <span className="home-text084">LKR</span>
-                <span className="home-basic-plan-pricing">48,500</span>
-                <span className="home-text085">/ month</span>
-              </div>
-              <div className="home-container10">
-                <div className="home-container11">
-                  <span className="home-text086">✔</span>
-                  <span className="bodySmall">All features of FREE plan</span>
-                </div>
-                <div className="home-container12">
-                  <span className="home-text088">✔</span>
-                  <span className="bodySmall">
-                    Tax return preparation for individuals and families
-                  </span>
-                </div>
-                <div className="home-container13">
-                  <span className="home-text089">✔</span>
-                  <span className="bodySmall">E-filing included</span>
-                </div>
-                <div className="home-container14">
-                  <span className="home-text090">✔</span>
-                  <span className="bodySmall">
-                    Customer support via email and phone
-                  </span>
-                </div>
-                <div className="home-container15">
-                  <span className="home-text091">✔</span>
-                  <span className="bodySmall">Up to two state tax returns</span>
-                </div>
-              </div>
-              <button className="home-button1 buttonFilledSecondary">
-                Try the Basic plan
-              </button>
-            </div>
-            <div className="proPricingCard home-pricing-card2">
-              <div className="home-container16">
-                <span className="home-text092 heading3">
-                  <span>small business advanced</span>
-                  <br></br>
-                </span>
-                <span className="bodySmall">
-                  Perfect for complex tax situations and businesses
-                </span>
-              </div>
-              <div className="home-container17">
-                <span className="home-pro-plan-pricing">
-                  <span>Custom</span>
-                  <br></br>
-                  <span>pricing</span>
-                  <br></br>
-                </span>
-              </div>
-              <div className="home-container18">
-                <div className="home-container19">
-                  <span className="home-text099">✔</span>
-                  <span className="bodySmall"> All features of BASIC plan</span>
-                </div>
-                <div className="home-container20">
-                  <span className="home-text101">✔</span>
-                  <span className="bodySmall">
-                    Comprehensive tax return preparation for individuals,
-                    families, and businesses
-                  </span>
-                </div>
-                <div className="home-container21">
-                  <span className="home-text102">✔</span>
-                  <span className="bodySmall">E-filing included</span>
-                </div>
-                <div className="home-container22">
-                  <span className="home-text103">✔</span>
-                  <span className="bodySmall">
-                    Priority customer support via email, phone, and in-person
-                    meetings
-                  </span>
-                </div>
-                <div className="home-container23">
-                  <span className="home-text104">✔</span>
-                  <span className="bodySmall">Unlimited state tax returns</span>
-                </div>
-              </div>
-              <button className="home-button2 buttonFilledSecondary">
-                Try the PRO plan
-              </button>
+              <FeatureCard1
+                heading="Tax Clearance"
+                subHeading="Support and assistance for your tax audit and matters."
+              ></FeatureCard1>
+              <FeatureCard1
+                heading="Confidentiality "
+                subHeading="Guarantees confidentiality of data and Tax information."
+              ></FeatureCard1>
+              <FeatureCard1
+                heading="Responsibility"
+                subHeading="Onus is on us in maximizing your tax savings."
+              ></FeatureCard1>
+              <FeatureCard1
+                heading="Commitment"
+                subHeading="for being a partner in fulfilling your tax obligation."
+                rootClassName="feature-card1-root-class-name"
+              ></FeatureCard1>
             </div>
           </div>
         </div>
       </div>
       <div className="home-banner">
         <div className="bannerContainer home-banner1">
-          <h1 className="home-banner-heading heading2">
-            Expert Tax Services for Individuals and Businesses
-          </h1>
-          <span className="home-banner-sub-heading bodySmall">
-            <span>
+          <div className="home-container04">
+            <h1 className="home-banner-heading">TYPES OF TAXES</h1>
+            <span className="home-banner-sub-heading bodySmall">
               <span>
                 <span>
-                  At XYZ Tax Company, we specialize in providing comprehensive
-                  tax solutions tailored to meet your specific needs. Our team
-                  of experienced professionals is dedicated to maximizing your
-                  tax refund while ensuring compliance with all regulations.
-                  Whether you are an individual or a business owner, we are here
-                  to help you navigate the complexities of tax preparation and
-                  planning. With our expertise and personalized approach, you
-                  can trust us to handle all your tax-related matters
-                  efficiently and accurately.
+                  <span>
+                    At XYZ Tax Company, we specialize in providing comprehensive
+                    tax solutions tailored to meet your specific needs. Our team
+                    of experienced professionals is dedicated to maximizing your
+                    tax refund while ensuring compliance with all regulations.
+                    Whether you are an individual or a business owner, we are
+                    here to help you navigate the complexities of tax
+                    preparation and planning. With our expertise and
+                    personalized approach, you can trust us to handle all your
+                    tax-related matters efficiently and accurately.
+                  </span>
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                 </span>
                 <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                 </span>
               </span>
               <span>
                 <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                 </span>
                 <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
                 </span>
               </span>
             </span>
-            <span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-            </span>
-          </span>
-          <button className="buttonFilled">Learn More</button>
+            <div className="home-container05">
+              <ul className="list">
+                <li className="list-item">
+                  <span className="home-tick">✔</span>
+                  <span>Pay As You Earn (PAYE)</span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick01">✔</span>
+                  <span>Value Added Tax (VAT)</span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick02">✔</span>
+                  <span>Simplified Value Added Tax (SVAT) Scheme</span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick03">✔</span>
+                  <span>
+                    <span>Social Security Contribution Levy (SSCL)</span>
+                    <br></br>
+                  </span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick04">✔</span>
+                  <span>
+                    <span>Economic Service Charge (ESC)</span>
+                    <br></br>
+                  </span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick05">✔</span>
+                  <span>Construction Industry Guarantee Fund Levy (CIGF)</span>
+                </li>
+              </ul>
+              <ul className="list">
+                <li className="list-item">
+                  <span className="home-tick06">✔</span>
+                  <span>Capital Gain Tax (CGT)</span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick07">✔</span>
+                  <span>Stamp Duty (SD)</span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick08">✔</span>
+                  <span>Betting and Gaming Levy (B&amp;GL)</span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick09">✔</span>
+                  <span>
+                    <span>Share Transaction Levy (STL)</span>
+                    <br></br>
+                  </span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick10">✔</span>
+                  <span>Tourist VAT Refund Scheme (TVRS)</span>
+                </li>
+                <li className="list-item">
+                  <span className="home-tick11">✔</span>
+                  <span>Nation Building Tax (NBT)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div className="home-faq">
         <div className="faqContainer">
           <div className="home-faq1">
-            <div className="home-container24">
+            <div className="home-container06">
               <span className="overline">
                 <span>FAQ</span>
                 <br></br>
               </span>
-              <h2 className="home-text122 heading2">Common questions</h2>
-              <span className="home-text123 bodyLarge">
+              <h2 className="home-text80 heading2">Common questions</h2>
+              <span className="home-text81 bodyLarge">
                 <span>
                   Here are some of the most common questions that we get.
                 </span>
                 <br></br>
               </span>
             </div>
-            <div className="home-container25">
+            <div className="home-container07">
               <Question1
                 answer="We offer a wide range of tax services including tax preparation, tax planning, and IRS problem resolution."
                 question="What tax services do you offer?"
@@ -738,8 +535,8 @@ const Home = (props) => {
       </div>
       <div className="home-footer">
         <footer className="footerContainer home-footer1">
-          <div className="home-container26">
-            <span className="TaxOnUs">TAXPROS</span>
+          <div className="home-container08">
+            <span className="TaxOnUs">TAXONUS</span>
             <nav className="home-nav1">
               <span className="bodySmall">Services</span>
               <span className="home-nav222 bodySmall">About Us</span>
@@ -748,8 +545,8 @@ const Home = (props) => {
             </nav>
           </div>
           <div className="home-separator"></div>
-          <div className="home-container27">
-            <span className="bodySmall home-text126">
+          <div className="home-container09">
+            <span className="bodySmall home-text84">
               © 2023 myCompany, All Rights Reserved.
             </span>
             <div className="home-icon-group1">
