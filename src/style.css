@@ -288,6 +288,9 @@
 }
 .socialIcons {
   fill: var(--dl-color-custom-neutral-light);
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
 }
 
 .Heading {
@@ -356,4 +359,19 @@
   font-family: "Raleway";
   font-weight: 400;
   line-height: 150%;
+}
+
+
+@media(max-width: 479px) {
+  .socialIcons {
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius4);
+    animation-name: none;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
 }

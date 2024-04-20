@@ -84,11 +84,6 @@
 .header-burger-menu {
   display: none;
 }
-.header-icon {
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
 .header-mobile-menu1 {
   top: 0px;
   left: 0px;
@@ -230,17 +225,6 @@
   }
   .header-burger-menu {
     display: flex;
-  }
-  .header-icon {
-    border-color: var(--dl-color-gray-black);
-    border-width: 1px;
-    border-radius: var(--dl-radius-radius-radius4);
-    animation-name: none;
-    animation-delay: 0s;
-    animation-duration: 300ms;
-    animation-direction: normal;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
   }
   .header-mobile-menu1 {
     padding: 16px;
