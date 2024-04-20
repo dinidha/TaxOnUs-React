@@ -56,7 +56,7 @@ const Home = (props) => {
           >
             <div className="home-nav">
               <div className="home-top">
-                <span className="TaxOnUs">TAXPROS</span>
+                <span className="TaxOnUs">TAXONUS</span>
                 <div data-thq="thq-close-menu" className="home-close-menu">
                   <svg
                     viewBox="0 0 1024 1024"
@@ -67,10 +67,13 @@ const Home = (props) => {
                 </div>
               </div>
               <nav className="home-links1">
-                <span className="home-nav121 bodySmall">Services</span>
+                <span className="home-nav121 bodySmall">Home</span>
                 <span className="home-nav221 bodySmall">About Us</span>
-                <span className="home-nav321 bodySmall">Resources</span>
-                <span className="home-nav421 bodySmall">Contact Us</span>
+                <span className="home-nav321 bodySmall">Tax Services</span>
+                <span className="home-nav421 bodySmall">
+                  Accounting Services
+                </span>
+                <span className="home-nav521 bodySmall">Contact Us</span>
               </nav>
               <div className="home-buttons1">
                 <button className="buttonFlat">Login</button>
