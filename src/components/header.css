@@ -98,7 +98,7 @@
   padding: 32px;
   z-index: 100;
   position: absolute;
-  transform: translateY(-100%);
+  transform: translateX(100%);
   transition: 0.5s;
   flex-direction: column;
   justify-content: space-between;
