@@ -6,197 +6,6 @@
   align-items: center;
   flex-direction: column;
 }
-.contact-header {
-  width: 100%;
-  display: flex;
-  z-index: 100;
-  position: fixed;
-  align-items: center;
-  flex-direction: column;
-  background-color: var(--dl-color-gray-white);
-}
-.contact-logo {
-  text-decoration: none;
-}
-.contact-desktop-menu {
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-}
-.contact-links {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.contact-nav12 {
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  border-width: 1px;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-bottom-width: 0px;
-}
-.contact-nav22 {
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 1px;
-  border-bottom-width: 0px;
-}
-.contact-nav32 {
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 1px;
-  border-bottom-width: 0px;
-}
-.contact-nav42 {
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 1px;
-  border-bottom-width: 0px;
-}
-.contact-nav52 {
-  margin-left: 0px;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-}
-.contact-buttons {
-  display: none;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.contact-login {
-  margin-right: 32px;
-}
-.contact-burger-menu {
-  display: none;
-}
-.contact-icon {
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
-.contact-mobile-menu1 {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  padding: 32px;
-  z-index: 100;
-  position: absolute;
-  transform: translateX(100%);
-  transition: 0.5s;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.contact-nav {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.contact-top {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
-}
-.contact-close-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contact-icon02 {
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
-.contact-links1 {
-  flex: 0 0 auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.contact-nav121 {
-  transition: 0.3s;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.contact-nav121:hover {
-  cursor: pointer;
-}
-.contact-nav221 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.contact-nav221:hover {
-  cursor: pointer;
-}
-.contact-nav321 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.contact-nav321:hover {
-  cursor: pointer;
-}
-.contact-nav421 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.contact-nav421:hover {
-  cursor: pointer;
-}
-.contact-nav521 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.contact-nav521:hover {
-  cursor: pointer;
-}
-.contact-buttons1 {
-  display: none;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.contact-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.contact-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.contact-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .contact-hero {
   flex: 0 0 auto;
   width: 100%;
@@ -285,20 +94,20 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.contact-nav1 {
+.contact-nav {
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
 }
-.contact-nav222 {
+.contact-nav22 {
   margin-left: var(--dl-space-space-unit);
 }
-.contact-nav322 {
+.contact-nav32 {
   margin-left: var(--dl-space-space-unit);
 }
-.contact-nav422 {
+.contact-nav42 {
   margin-left: var(--dl-space-space-unit);
 }
 .contact-separator {
@@ -327,23 +136,23 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-icon-group1 {
+.contact-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-icon10 {
+.contact-icon {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
 }
-.contact-icon12 {
+.contact-icon2 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
 }
-.contact-icon14 {
+.contact-icon4 {
   width: 24px;
   height: 24px;
 }
@@ -367,29 +176,6 @@
   }
 }
 @media(max-width: 767px) {
-  .contact-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .contact-burger-menu {
-    align-items: center;
-    justify-content: center;
-  }
-  .contact-nav121 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .contact-nav221 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .contact-nav321 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .contact-nav421 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .contact-nav521 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .contact-hero1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -421,23 +207,6 @@
   }
 }
 @media(max-width: 479px) {
-  .contact-navbar-interactive {
-    height: 99px;
-    padding: var(--dl-space-space-unit);
-    margin-bottom: 0px;
-  }
-  .contact-desktop-menu {
-    display: none;
-  }
-  .contact-burger-menu {
-    display: flex;
-  }
-  .contact-mobile-menu1 {
-    padding: 16px;
-  }
-  .contact-buttons1 {
-    display: none;
-  }
   .contact-hero1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);

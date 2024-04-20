@@ -6,197 +6,6 @@
   align-items: center;
   flex-direction: column;
 }
-.accounting-services-header {
-  width: 100%;
-  display: flex;
-  z-index: 100;
-  position: fixed;
-  align-items: center;
-  flex-direction: column;
-  background-color: var(--dl-color-gray-white);
-}
-.accounting-services-logo {
-  text-decoration: none;
-}
-.accounting-services-desktop-menu {
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-}
-.accounting-services-links {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.accounting-services-nav12 {
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  border-width: 1px;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-bottom-width: 0px;
-}
-.accounting-services-nav22 {
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 1px;
-  border-bottom-width: 0px;
-}
-.accounting-services-nav32 {
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 1px;
-  border-bottom-width: 0px;
-}
-.accounting-services-nav42 {
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 1px;
-  border-bottom-width: 0px;
-}
-.accounting-services-nav52 {
-  margin-left: 0px;
-  padding-left: 2%;
-  padding-right: 2%;
-  text-decoration: none;
-}
-.accounting-services-buttons {
-  display: none;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.accounting-services-login {
-  margin-right: 32px;
-}
-.accounting-services-burger-menu {
-  display: none;
-}
-.accounting-services-icon {
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
-.accounting-services-mobile-menu1 {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  padding: 32px;
-  z-index: 100;
-  position: absolute;
-  transform: translateX(100%);
-  transition: 0.5s;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.accounting-services-nav {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.accounting-services-top {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
-}
-.accounting-services-close-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.accounting-services-icon02 {
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
-.accounting-services-links1 {
-  flex: 0 0 auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.accounting-services-nav121 {
-  transition: 0.3s;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.accounting-services-nav121:hover {
-  cursor: pointer;
-}
-.accounting-services-nav221 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.accounting-services-nav221:hover {
-  cursor: pointer;
-}
-.accounting-services-nav321 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.accounting-services-nav321:hover {
-  cursor: pointer;
-}
-.accounting-services-nav421 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.accounting-services-nav421:hover {
-  cursor: pointer;
-}
-.accounting-services-nav521 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.accounting-services-nav521:hover {
-  cursor: pointer;
-}
-.accounting-services-buttons1 {
-  display: none;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.accounting-services-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.accounting-services-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.accounting-services-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .accounting-services-hero {
   flex: 0 0 auto;
   width: 100%;
@@ -1294,20 +1103,20 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.accounting-services-nav1 {
+.accounting-services-nav {
   flex: 0 0 auto;
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
 }
-.accounting-services-nav222 {
+.accounting-services-nav22 {
   margin-left: var(--dl-space-space-unit);
 }
-.accounting-services-nav322 {
+.accounting-services-nav32 {
   margin-left: var(--dl-space-space-unit);
 }
-.accounting-services-nav422 {
+.accounting-services-nav42 {
   margin-left: var(--dl-space-space-unit);
 }
 .accounting-services-separator {
@@ -1336,23 +1145,23 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.accounting-services-icon-group1 {
+.accounting-services-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.accounting-services-icon10 {
+.accounting-services-icon {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
 }
-.accounting-services-icon12 {
+.accounting-services-icon2 {
   width: 24px;
   height: 24px;
   margin-right: var(--dl-space-space-twounits);
 }
-.accounting-services-icon14 {
+.accounting-services-icon4 {
   width: 24px;
   height: 24px;
 }
@@ -1390,29 +1199,6 @@
   }
 }
 @media(max-width: 767px) {
-  .accounting-services-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .accounting-services-burger-menu {
-    align-items: center;
-    justify-content: center;
-  }
-  .accounting-services-nav121 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .accounting-services-nav221 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .accounting-services-nav321 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .accounting-services-nav421 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .accounting-services-nav521 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .accounting-services-hero1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -1459,23 +1245,6 @@
   }
 }
 @media(max-width: 479px) {
-  .accounting-services-navbar-interactive {
-    height: 99px;
-    padding: var(--dl-space-space-unit);
-    margin-bottom: 0px;
-  }
-  .accounting-services-desktop-menu {
-    display: none;
-  }
-  .accounting-services-burger-menu {
-    display: flex;
-  }
-  .accounting-services-mobile-menu1 {
-    padding: 16px;
-  }
-  .accounting-services-buttons1 {
-    display: none;
-  }
   .accounting-services-hero1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
