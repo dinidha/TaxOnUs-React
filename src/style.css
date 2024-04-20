@@ -288,9 +288,9 @@
 }
 .socialIcons {
   fill: var(--dl-color-custom-neutral-light);
-  width: var(--dl-size-size-xsmall);
+  width: var(--dl-size-size-small);
   cursor: pointer;
-  height: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-small);
 }
 
 .Heading {
@@ -364,7 +364,7 @@
 
 @media(max-width: 479px) {
   .socialIcons {
-    border-color: var(--dl-color-gray-black);
+    border-color: #ffffff;
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius4);
     animation-name: none;

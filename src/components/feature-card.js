@@ -24,15 +24,15 @@ const FeatureCard = (props) => {
 }
 
 FeatureCard.defaultProps = {
+  heading: 'Tax advisory',
   rootClassName: '',
   subHeading: 'Obtain Tax advisory services from our expert team.',
-  heading: 'Tax advisory',
 }
 
 FeatureCard.propTypes = {
+  heading: PropTypes.string,
   rootClassName: PropTypes.string,
   subHeading: PropTypes.string,
-  heading: PropTypes.string,
 }
 
 export default FeatureCard
