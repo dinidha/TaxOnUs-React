@@ -217,6 +217,9 @@
   .header-navbar-interactive {
     height: 99px;
     padding: var(--dl-space-space-unit);
+    z-index: auto;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
     margin-bottom: 0px;
     padding-right: 16px;
   }
@@ -225,11 +228,16 @@
   }
   .header-burger-menu {
     display: flex;
+    flex-direction: column;
   }
   .header-mobile-menu1 {
     padding: 16px;
   }
   .header-buttons1 {
     display: none;
+  }
+  .header-root-class-name {
+    fill: var(--dl-color-gray-black);
+    color: var(--dl-color-gray-black);
   }
 }
