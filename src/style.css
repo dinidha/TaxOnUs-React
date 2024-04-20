@@ -364,7 +364,7 @@
 
 @media(max-width: 479px) {
   .socialIcons {
-    border-color: #ffffff;
+    border-color: var(--dl-color-custom-neutral-dark);
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius4);
     animation-name: none;
