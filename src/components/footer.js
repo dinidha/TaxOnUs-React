@@ -47,18 +47,18 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   text: '© 2024 TaxOnUs, All Rights Reserved.',
-  logo: 'TAXONUS',
+  nav32: 'Documents',
   nav12: 'Downloads',
   nav22: 'Other Links',
-  nav32: 'Documents',
+  logo: 'TAXONUS',
 }
 
 Footer.propTypes = {
   text: PropTypes.string,
-  logo: PropTypes.string,
+  nav32: PropTypes.string,
   nav12: PropTypes.string,
   nav22: PropTypes.string,
-  nav32: PropTypes.string,
+  logo: PropTypes.string,
 }
 
 export default Footer
