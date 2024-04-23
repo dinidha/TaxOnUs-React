@@ -12,12 +12,12 @@ const Header = (props) => {
         data-thq="thq-navbar"
         className="navbarContainer header-navbar-interactive"
       >
-        <Link to="/" className="header-logo TaxOnUs">
+        <Link to="/home" className="header-logo TaxOnUs">
           {props.logo}
         </Link>
         <div data-thq="thq-navbar-nav" className="header-desktop-menu">
           <nav className="header-links">
-            <Link to="/" className="header-nav12 bodySmall">
+            <Link to="/home" className="header-nav12 bodySmall">
               {props.nav12}
             </Link>
             <Link to="/about" className="header-nav22 bodySmall">
@@ -29,7 +29,7 @@ const Header = (props) => {
             <Link to="/accounting-services" className="header-nav42 bodySmall">
               {props.nav42}
             </Link>
-            <Link to="/contact" className="header-nav52 bodySmall">
+            <Link to="/" className="header-nav52 bodySmall">
               {props.nav52}
             </Link>
           </nav>
@@ -72,7 +72,7 @@ const Header = (props) => {
               </div>
             </div>
             <nav className="header-links1">
-              <Link to="/" className="header-nav121 bodySmall">
+              <Link to="/home" className="header-nav121 bodySmall">
                 {props.nav121}
               </Link>
               <Link to="/about" className="header-nav221 bodySmall">
@@ -87,7 +87,7 @@ const Header = (props) => {
               >
                 {props.nav421}
               </Link>
-              <Link to="/contact" className="header-nav521 bodySmall">
+              <Link to="/" className="header-nav521 bodySmall">
                 {props.nav521}
               </Link>
             </nav>
