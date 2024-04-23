@@ -12,8 +12,9 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Home - taxonus</title>
-        <meta property="og:title" content="Home - taxonus" />
+        <title>taxonus</title>
+        <meta property="og:title" content="taxonus" />
+        <meta name="robots" content="noindex" />
       </Helmet>
       <Header rootClassName="header-root-class-name"></Header>
       <div className="home-hero">

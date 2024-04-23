@@ -9,8 +9,8 @@ const Contact = (props) => {
   return (
     <div className="contact-container">
       <Helmet>
-        <title>taxonus</title>
-        <meta property="og:title" content="taxonus" />
+        <title>Contact - taxonus</title>
+        <meta property="og:title" content="Contact - taxonus" />
       </Helmet>
       <Header rootClassName="header-root-class-name2"></Header>
       <div className="contact-hero">
