@@ -15,7 +15,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.accounting-services-container01 {
+.accounting-services-container1 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: center;
@@ -42,14 +42,14 @@
   align-items: center;
   justify-content: center;
 }
-.accounting-services-container02 {
+.accounting-services-container2 {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
-.accounting-services-container03 {
+.accounting-services-container3 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
@@ -59,7 +59,7 @@
 .accounting-services-text {
   text-transform: uppercase;
 }
-.accounting-services-container04 {
+.accounting-services-container4 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -72,7 +72,6 @@
 }
 .accounting-services-free-plan-price {
   font-size: 4rem;
-  font-weight: 700;
 }
 .accounting-services-text005 {
   font-size: 1.15rem;
@@ -355,7 +354,7 @@
   width: 100%;
   display: none;
 }
-.accounting-services-container05 {
+.accounting-services-container5 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
@@ -365,7 +364,7 @@
 .accounting-services-text047 {
   text-transform: uppercase;
 }
-.accounting-services-container06 {
+.accounting-services-container6 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -378,7 +377,6 @@
 }
 .accounting-services-free-plan-price1 {
   font-size: 4rem;
-  font-weight: 700;
 }
 .accounting-services-text052 {
   font-size: 1.15rem;
@@ -725,7 +723,7 @@
   width: 100%;
   display: none;
 }
-.accounting-services-container07 {
+.accounting-services-container7 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
@@ -735,7 +733,7 @@
 .accounting-services-text096 {
   text-transform: uppercase;
 }
-.accounting-services-container08 {
+.accounting-services-container8 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -1087,89 +1085,11 @@
   width: 100%;
   display: none;
 }
-.accounting-services-footer {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.accounting-services-container09 {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.accounting-services-nav {
-  flex: 0 0 auto;
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-  flex-direction: row;
-}
-.accounting-services-nav22 {
-  margin-left: var(--dl-space-space-unit);
-}
-.accounting-services-nav32 {
-  margin-left: var(--dl-space-space-unit);
-}
-.accounting-services-nav42 {
-  margin-left: var(--dl-space-space-unit);
-}
-.accounting-services-separator {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 0px;
-  display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: flex-start;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-900);
-  border-style: solid;
-  border-width: 1px;
-  margin-right: 0px;
-  margin-bottom: var(--dl-space-space-twounits);
-  flex-direction: row;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-}
-.accounting-services-container10 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.accounting-services-icon-group {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.accounting-services-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-twounits);
-}
-.accounting-services-icon2 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-twounits);
-}
-.accounting-services-icon4 {
-  width: 24px;
-  height: 24px;
-}
 @media(max-width: 991px) {
   .accounting-services-hero1 {
     flex-direction: column;
   }
-  .accounting-services-container01 {
+  .accounting-services-container1 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
@@ -1178,7 +1098,7 @@
   .accounting-services-hero-heading {
     text-align: center;
   }
-  .accounting-services-container02 {
+  .accounting-services-container2 {
     align-items: center;
     flex-direction: column;
   }
@@ -1203,7 +1123,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .accounting-services-container02 {
+  .accounting-services-container2 {
     align-items: center;
     flex-direction: column;
   }
@@ -1225,24 +1145,6 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .accounting-services-footer1 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .accounting-services-separator {
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .accounting-services-container10 {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .accounting-services-text137 {
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
 }
 @media(max-width: 479px) {
   .accounting-services-hero1 {
@@ -1251,23 +1153,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .accounting-services-container01 {
+  .accounting-services-container1 {
     margin-bottom: var(--dl-space-space-unit);
-  }
-  .accounting-services-footer1 {
-    padding: var(--dl-space-space-unit);
-  }
-  .accounting-services-separator {
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .accounting-services-container10 {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .accounting-services-text137 {
-    text-align: center;
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }

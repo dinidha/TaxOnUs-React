@@ -133,13 +133,13 @@ const Header = (props) => {
 
 Header.defaultProps = {
   nav121: 'Home',
-  logo: 'Taxonus',
+  logo: 'TAXOBEY',
   register1: 'Register',
   nav52: 'Contact Us',
   nav321: 'Tax Services',
   nav221: 'About Us',
   nav22: 'About Us',
-  logo1: 'TAXONUS',
+  logo1: 'TAXOBEY',
   register: 'Register',
   login1: 'Login',
   login: 'Login',

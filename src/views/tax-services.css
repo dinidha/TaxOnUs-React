@@ -166,7 +166,7 @@
 }
 .tax-services-button {
   width: 100%;
-  display: none;
+  font-family: "Raleway";
 }
 .tax-services-pricing-card1 {
   width: var(--dl-size-size-xxlarge);
@@ -178,7 +178,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text010 {
+.tax-services-text009 {
   text-transform: uppercase;
 }
 .tax-services-container08 {
@@ -187,7 +187,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text011 {
+.tax-services-text010 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -209,7 +209,7 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text012 {
+.tax-services-text011 {
   font-size: 1.5em;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -222,7 +222,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text013 {
+.tax-services-text012 {
   line-height: 150%;
 }
 .tax-services-sub-feature05 {
@@ -234,7 +234,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text014 {
+.tax-services-text013 {
   line-height: 150%;
 }
 .tax-services-sub-feature06 {
@@ -246,7 +246,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text015 {
+.tax-services-text014 {
   line-height: 150%;
 }
 .tax-services-sub-feature07 {
@@ -258,12 +258,25 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text019 {
+.tax-services-text018 {
+  line-height: 150%;
+}
+.tax-services-sub-feature08 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.tax-services-text022 {
   line-height: 150%;
 }
 .tax-services-button1 {
   width: 100%;
   display: none;
+  font-family: "Raleway";
 }
 .tax-services-container09 {
   width: 100%;
@@ -304,7 +317,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text023 {
+.tax-services-text026 {
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -315,7 +328,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text024 {
+.tax-services-text027 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -337,21 +350,9 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text025 {
+.tax-services-text028 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.tax-services-sub-feature08 {
-  gap: 4px;
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-bottom: 0px;
-  flex-direction: row;
-}
-.tax-services-text026 {
-  line-height: 150%;
 }
 .tax-services-sub-feature09 {
   gap: 4px;
@@ -362,10 +363,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text027 {
-  line-height: 150%;
-}
-.tax-services-text028 {
+.tax-services-text029 {
   line-height: 150%;
 }
 .tax-services-sub-feature10 {
@@ -377,7 +375,10 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text032 {
+.tax-services-text030 {
+  line-height: 150%;
+}
+.tax-services-text031 {
   line-height: 150%;
 }
 .tax-services-sub-feature11 {
@@ -389,7 +390,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text036 {
+.tax-services-text035 {
   line-height: 150%;
 }
 .tax-services-sub-feature12 {
@@ -428,6 +429,18 @@
 .tax-services-text045 {
   line-height: 150%;
 }
+.tax-services-sub-feature15 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.tax-services-text048 {
+  line-height: 150%;
+}
 .tax-services-button2 {
   width: 100%;
   display: none;
@@ -442,7 +455,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text046 {
+.tax-services-text049 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -454,7 +467,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text047 {
+.tax-services-text050 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -476,21 +489,9 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text048 {
+.tax-services-text051 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.tax-services-sub-feature15 {
-  gap: 4px;
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-bottom: 0px;
-  flex-direction: row;
-}
-.tax-services-text049 {
-  line-height: 150%;
 }
 .tax-services-sub-feature16 {
   gap: 4px;
@@ -501,7 +502,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text050 {
+.tax-services-text052 {
   line-height: 150%;
 }
 .tax-services-sub-feature17 {
@@ -513,7 +514,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text054 {
+.tax-services-text053 {
   line-height: 150%;
 }
 .tax-services-sub-feature18 {
@@ -525,7 +526,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text058 {
+.tax-services-text057 {
   line-height: 150%;
 }
 .tax-services-sub-feature19 {
@@ -576,6 +577,18 @@
 .tax-services-text070 {
   line-height: 150%;
 }
+.tax-services-sub-feature23 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.tax-services-text073 {
+  line-height: 150%;
+}
 .tax-services-button3 {
   width: 100%;
   display: none;
@@ -590,7 +603,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text073 {
+.tax-services-text076 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -602,7 +615,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text074 {
+.tax-services-text077 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -624,21 +637,9 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text075 {
+.tax-services-text078 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.tax-services-sub-feature23 {
-  gap: 4px;
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-bottom: 0px;
-  flex-direction: row;
-}
-.tax-services-text076 {
-  line-height: 150%;
 }
 .tax-services-sub-feature24 {
   gap: 4px;
@@ -649,7 +650,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text077 {
+.tax-services-text079 {
   line-height: 150%;
 }
 .tax-services-sub-feature25 {
@@ -661,7 +662,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text078 {
+.tax-services-text080 {
   line-height: 150%;
 }
 .tax-services-sub-feature26 {
@@ -673,7 +674,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text082 {
+.tax-services-text081 {
   line-height: 150%;
 }
 .tax-services-sub-feature27 {
@@ -724,6 +725,18 @@
 .tax-services-text094 {
   line-height: 150%;
 }
+.tax-services-sub-feature31 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.tax-services-text097 {
+  line-height: 150%;
+}
 .tax-services-button4 {
   width: 100%;
   display: none;
@@ -738,7 +751,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text097 {
+.tax-services-text100 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -750,7 +763,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.tax-services-text098 {
+.tax-services-text101 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
@@ -772,21 +785,9 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text099 {
+.tax-services-text102 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.tax-services-sub-feature31 {
-  gap: 4px;
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-bottom: 0px;
-  flex-direction: row;
-}
-.tax-services-text100 {
-  line-height: 150%;
 }
 .tax-services-sub-feature32 {
   gap: 4px;
@@ -797,7 +798,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text101 {
+.tax-services-text103 {
   line-height: 150%;
 }
 .tax-services-sub-feature33 {
@@ -809,7 +810,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text102 {
+.tax-services-text104 {
   line-height: 150%;
 }
 .tax-services-sub-feature34 {
@@ -821,7 +822,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text106 {
+.tax-services-text105 {
   line-height: 150%;
 }
 .tax-services-sub-feature35 {
@@ -872,6 +873,18 @@
 .tax-services-text118 {
   line-height: 150%;
 }
+.tax-services-sub-feature39 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.tax-services-text121 {
+  line-height: 150%;
+}
 .tax-services-button5 {
   width: 100%;
   display: none;
@@ -915,7 +928,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text121 {
+.tax-services-text124 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -944,21 +957,9 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.tax-services-text122 {
+.tax-services-text125 {
   font-size: 1.25em;
   margin-bottom: var(--dl-space-space-halfunit);
-}
-.tax-services-sub-feature39 {
-  gap: 4px;
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-bottom: 0px;
-  flex-direction: row;
-}
-.tax-services-text123 {
-  line-height: 150%;
 }
 .tax-services-sub-feature40 {
   gap: 4px;
@@ -969,10 +970,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text124 {
-  line-height: 150%;
-}
-.tax-services-text125 {
+.tax-services-text126 {
   line-height: 150%;
 }
 .tax-services-sub-feature41 {
@@ -984,7 +982,10 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text129 {
+.tax-services-text127 {
+  line-height: 150%;
+}
+.tax-services-text128 {
   line-height: 150%;
 }
 .tax-services-sub-feature42 {
@@ -996,7 +997,7 @@
   margin-bottom: 0px;
   flex-direction: row;
 }
-.tax-services-text133 {
+.tax-services-text132 {
   line-height: 150%;
 }
 .tax-services-sub-feature43 {
@@ -1035,6 +1036,18 @@
 .tax-services-text142 {
   line-height: 150%;
 }
+.tax-services-sub-feature46 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.tax-services-text145 {
+  line-height: 150%;
+}
 .tax-services-link {
   width: 100%;
   font-style: normal;
@@ -1069,7 +1082,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tax-services-text144 {
+.tax-services-text147 {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .tax-services-container26 {
@@ -1080,84 +1093,6 @@
 }
 .tax-services-link1 {
   text-decoration: none;
-}
-.tax-services-footer {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.tax-services-container27 {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.tax-services-nav {
-  flex: 0 0 auto;
-  display: flex;
-  margin-top: 0px;
-  align-items: center;
-  flex-direction: row;
-}
-.tax-services-nav22 {
-  margin-left: var(--dl-space-space-unit);
-}
-.tax-services-nav32 {
-  margin-left: var(--dl-space-space-unit);
-}
-.tax-services-nav42 {
-  margin-left: var(--dl-space-space-unit);
-}
-.tax-services-separator {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 0px;
-  display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: flex-start;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-900);
-  border-style: solid;
-  border-width: 1px;
-  margin-right: 0px;
-  margin-bottom: var(--dl-space-space-twounits);
-  flex-direction: row;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-}
-.tax-services-container28 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.tax-services-icon-group {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.tax-services-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-twounits);
-}
-.tax-services-icon2 {
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-twounits);
-}
-.tax-services-icon4 {
-  width: 24px;
-  height: 24px;
 }
 @media(max-width: 991px) {
   .tax-services-hero1 {
@@ -1288,24 +1223,6 @@
     align-items: center;
     justify-content: center;
   }
-  .tax-services-footer1 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .tax-services-separator {
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .tax-services-container28 {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .tax-services-text150 {
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
 }
 @media(max-width: 479px) {
   .tax-services-hero1 {
@@ -1316,21 +1233,5 @@
   }
   .tax-services-container01 {
     margin-bottom: var(--dl-space-space-unit);
-  }
-  .tax-services-footer1 {
-    padding: var(--dl-space-space-unit);
-  }
-  .tax-services-separator {
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .tax-services-container28 {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .tax-services-text150 {
-    text-align: center;
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
