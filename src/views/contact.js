@@ -16,85 +16,17 @@ const Contact = (props) => {
       <Header rootClassName="header-root-class-name2"></Header>
       <div className="contact-hero">
         <div className="heroContainer contact-hero1">
-          <div className="contact-container1">
+          <div className="contact-container01">
             <h1 className="contact-hero-heading heading1">
-              Maximize Your Tax Refund
+              Get In Touch With Us TODAY!
             </h1>
-            <span className="contact-hero-sub-heading bodyLarge">
-              <span>
-                <span>
-                  <span>Your Trusted Tax Experts</span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-            </span>
-            <div className="contact-btn-group">
-              <button className="buttonFilled">Get Started Now</button>
-              <button className="buttonFlat">Learn More →</button>
-            </div>
           </div>
         </div>
       </div>
-      <div className="contact-container2">
+      <div className="contact-container02">
         <form className="contact-form">
-          <div className="contact-container3">
-            <div className="contact-container4">
+          <div className="contact-container03">
+            <div className="contact-container04">
               <input
                 type="text"
                 required="true"
@@ -114,7 +46,7 @@ const Contact = (props) => {
                 className="contact-textinput2 input"
               />
             </div>
-            <div className="contact-container5">
+            <div className="contact-container05">
               <textarea
                 placeholder="Message"
                 className="textarea contact-textarea"
@@ -122,10 +54,25 @@ const Contact = (props) => {
             </div>
           </div>
         </form>
-        <div className="contact-container6">
+        <div className="contact-container06">
           <button type="button" className="button">
             Button
           </button>
+        </div>
+        <div className="contact-container07">
+          <div className="contact-container08">
+            <span className="contact-email">Email: </span>
+            <a
+              href="mailto:info@taxobey.lk?subject=Welcome to TaxObey"
+              className="contact-text"
+            >
+              info@taxobey.lk
+            </a>
+          </div>
+          <div className="contact-container09">
+            <span className="contact-tel">Tel: </span>
+            <span className="contact-text1">+94 </span>
+          </div>
         </div>
       </div>
       <Footer rootClassName="footer-root-class-name1"></Footer>

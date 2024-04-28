@@ -54,7 +54,7 @@ const Home = (props) => {
               ></FeatureCard>
               <FeatureCard
                 heading="Responsibility"
-                subHeading="Honour in maximizing your tax savings."
+                subHeading="In tax compliance and in maximizing your savings"
               ></FeatureCard>
               <FeatureCard
                 heading="Commitment"

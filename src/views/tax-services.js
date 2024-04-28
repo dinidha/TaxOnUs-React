@@ -46,7 +46,7 @@ const TaxServices = (props) => {
                   <div className="tax-services-feature-container">
                     <div className="tax-services-feature">
                       <h1 className="tax-services-text002">
-                        Tin registration
+                        TIN registration
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
