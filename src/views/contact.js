@@ -62,16 +62,11 @@ const Contact = (props) => {
         <div className="contact-container07">
           <div className="contact-container08">
             <span className="contact-email">Email: </span>
-            <a
-              href="mailto:info@taxobey.lk?subject=Welcome to TaxObey"
-              className="contact-text"
-            >
-              info@taxobey.lk
-            </a>
+            <span className="contact-text">info@taxobey.lk</span>
           </div>
           <div className="contact-container09">
             <span className="contact-tel">Tel: </span>
-            <span className="contact-text1">+94 </span>
+            <span className="contact-text1">+94 773876580 </span>
           </div>
         </div>
       </div>
