@@ -12,8 +12,16 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>taxonus</title>
-        <meta property="og:title" content="taxonus" />
+        <title>TaxObey</title>
+        <meta
+          name="description"
+          content="Title: Taxobey: Maximize Tax Returns!\nMeta Description: Get expert tax solutions with Taxobey! From planning to resolution, optimize returns hassle-free. Contact now!"
+        />
+        <meta property="og:title" content="TaxObey" />
+        <meta
+          property="og:description"
+          content="Title: Taxobey: Maximize Tax Returns!\nMeta Description: Get expert tax solutions with Taxobey! From planning to resolution, optimize returns hassle-free. Contact now!"
+        />
         <meta name="robots" content="noindex" />
       </Helmet>
       <Header rootClassName="header-root-class-name"></Header>

@@ -10,8 +10,16 @@ const About = (props) => {
   return (
     <div className="about-container">
       <Helmet>
-        <title>About - taxonus</title>
-        <meta property="og:title" content="About - taxonus" />
+        <title>About - TaxObey</title>
+        <meta
+          name="description"
+          content="Title: Taxobey: Maximize Tax Returns!\nMeta Description: Get expert tax solutions with Taxobey! From planning to resolution, optimize returns hassle-free. Contact now!"
+        />
+        <meta property="og:title" content="About - TaxObey" />
+        <meta
+          property="og:description"
+          content="Title: Taxobey: Maximize Tax Returns!\nMeta Description: Get expert tax solutions with Taxobey! From planning to resolution, optimize returns hassle-free. Contact now!"
+        />
       </Helmet>
       <Header></Header>
       <div className="about-hero">

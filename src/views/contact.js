@@ -10,8 +10,16 @@ const Contact = (props) => {
   return (
     <div className="contact-container">
       <Helmet>
-        <title>Contact - taxonus</title>
-        <meta property="og:title" content="Contact - taxonus" />
+        <title>Contact - TaxObey</title>
+        <meta
+          name="description"
+          content="Title: Taxobey: Maximize Tax Returns!\nMeta Description: Get expert tax solutions with Taxobey! From planning to resolution, optimize returns hassle-free. Contact now!"
+        />
+        <meta property="og:title" content="Contact - TaxObey" />
+        <meta
+          property="og:description"
+          content="Title: Taxobey: Maximize Tax Returns!\nMeta Description: Get expert tax solutions with Taxobey! From planning to resolution, optimize returns hassle-free. Contact now!"
+        />
       </Helmet>
       <Header rootClassName="header-root-class-name2"></Header>
       <div className="contact-hero">

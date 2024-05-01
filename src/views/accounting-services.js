@@ -10,8 +10,16 @@ const AccountingServices = (props) => {
   return (
     <div className="accounting-services-container">
       <Helmet>
-        <title>Accounting-Services - taxonus</title>
-        <meta property="og:title" content="Accounting-Services - taxonus" />
+        <title>Accounting-Services - TaxObey</title>
+        <meta
+          name="description"
+          content="Title: Taxobey: Maximize Tax Returns!\nMeta Description: Get expert tax solutions with Taxobey! From planning to resolution, optimize returns hassle-free. Contact now!"
+        />
+        <meta property="og:title" content="Accounting-Services - TaxObey" />
+        <meta
+          property="og:description"
+          content="Title: Taxobey: Maximize Tax Returns!\nMeta Description: Get expert tax solutions with Taxobey! From planning to resolution, optimize returns hassle-free. Contact now!"
+        />
       </Helmet>
       <Header rootClassName="header-root-class-name1"></Header>
       <div className="accounting-services-hero">
