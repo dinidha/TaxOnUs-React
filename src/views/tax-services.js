@@ -88,9 +88,12 @@ const TaxServices = (props) => {
                       </div>
                     </div>
                   </div>
-                  <button className="tax-services-button buttonOutline">
+                  <a
+                    href="mailto:info@taxobey.lk?subject=TIN registration Enquiry"
+                    className="tax-services-link buttonOutline"
+                  >
                     Send Your Request
-                  </button>
+                  </a>
                 </div>
                 <div className="tax-services-pricing-card1 freePricingCard">
                   <div className="tax-services-container07">
@@ -162,9 +165,12 @@ const TaxServices = (props) => {
                       </div>
                     </div>
                   </div>
-                  <button className="tax-services-button1 buttonOutline">
+                  <a
+                    href="mailto:info@taxobey.lk?subject=VAT registration Enquiry"
+                    className="tax-services-link1 buttonOutline"
+                  >
                     Send Your Request
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -264,7 +270,7 @@ const TaxServices = (props) => {
                       </div>
                     </div>
                   </div>
-                  <button className="tax-services-button2 buttonOutline">
+                  <button className="tax-services-button buttonOutline">
                     Continue with Free
                   </button>
                 </div>
@@ -365,7 +371,7 @@ const TaxServices = (props) => {
                       </div>
                     </div>
                   </div>
-                  <button className="tax-services-button3 buttonOutline">
+                  <button className="tax-services-button1 buttonOutline">
                     Continue with Free
                   </button>
                 </div>
@@ -468,7 +474,7 @@ const TaxServices = (props) => {
                       </div>
                     </div>
                   </div>
-                  <button className="tax-services-button4 buttonOutline">
+                  <button className="tax-services-button2 buttonOutline">
                     Continue with Free
                   </button>
                 </div>
@@ -564,7 +570,7 @@ const TaxServices = (props) => {
                       </div>
                     </div>
                   </div>
-                  <button className="tax-services-button5 buttonOutline">
+                  <button className="tax-services-button3 buttonOutline">
                     Continue with Free
                   </button>
                 </div>
@@ -668,8 +674,8 @@ const TaxServices = (props) => {
                     </div>
                   </div>
                   <a
-                    href="mailto:info@taxonus.lk?subject=Custom Accounting Quote"
-                    className="tax-services-link buttonOutline"
+                    href="mailto:info@taxobey.lk?subject=Custom Accounting Quote"
+                    className="tax-services-link2 buttonOutline"
                   >
                     Request a quote
                   </a>
@@ -698,7 +704,7 @@ const TaxServices = (props) => {
                 href="https://www.google.lk"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="tax-services-link1"
+                className="tax-services-link3"
               >
                 <span>Download here</span>
                 <br></br>

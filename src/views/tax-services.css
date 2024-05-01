@@ -164,9 +164,10 @@
 .tax-services-text006 {
   line-height: 150%;
 }
-.tax-services-button {
+.tax-services-link {
   width: 100%;
   font-family: "Raleway";
+  text-decoration: none;
 }
 .tax-services-pricing-card1 {
   width: var(--dl-size-size-xxlarge);
@@ -273,10 +274,10 @@
 .tax-services-text022 {
   line-height: 150%;
 }
-.tax-services-button1 {
+.tax-services-link1 {
   width: 100%;
-  display: none;
   font-family: "Raleway";
+  text-decoration: none;
 }
 .tax-services-container09 {
   width: 100%;
@@ -441,7 +442,7 @@
 .tax-services-text048 {
   line-height: 150%;
 }
-.tax-services-button2 {
+.tax-services-button {
   width: 100%;
   display: none;
 }
@@ -589,7 +590,7 @@
 .tax-services-text073 {
   line-height: 150%;
 }
-.tax-services-button3 {
+.tax-services-button1 {
   width: 100%;
   display: none;
 }
@@ -737,7 +738,7 @@
 .tax-services-text097 {
   line-height: 150%;
 }
-.tax-services-button4 {
+.tax-services-button2 {
   width: 100%;
   display: none;
 }
@@ -885,7 +886,7 @@
 .tax-services-text121 {
   line-height: 150%;
 }
-.tax-services-button5 {
+.tax-services-button3 {
   width: 100%;
   display: none;
 }
@@ -1048,7 +1049,7 @@
 .tax-services-text145 {
   line-height: 150%;
 }
-.tax-services-link {
+.tax-services-link2 {
   width: 100%;
   font-style: normal;
   font-family: "Raleway";
@@ -1091,7 +1092,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.tax-services-link1 {
+.tax-services-link3 {
   text-decoration: none;
 }
 @media(max-width: 991px) {
