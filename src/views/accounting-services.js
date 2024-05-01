@@ -269,9 +269,12 @@ const AccountingServices = (props) => {
                     </span>
                   </div>
                 </div>
-                <button className="accounting-services-button buttonOutline">
-                  Continue with Free
-                </button>
+                <a
+                  href="mailto:info@taxobey.lk?subject=SMB Enquiry"
+                  className="accounting-services-link buttonOutline"
+                >
+                  Send Your Request
+                </a>
               </div>
               <div className="freePricingCard accounting-services-pricing-card1">
                 <div className="accounting-services-container5">
@@ -555,9 +558,12 @@ const AccountingServices = (props) => {
                     </span>
                   </div>
                 </div>
-                <button className="accounting-services-button1 buttonOutline">
-                  Continue with Free
-                </button>
+                <a
+                  href="mailto:info@taxobey.lk?subject=SMB+ Enquiry"
+                  className="accounting-services-link1 buttonOutline"
+                >
+                  Send Your Request
+                </a>
               </div>
               <div className="freePricingCard accounting-services-pricing-card2">
                 <div className="accounting-services-container7">
@@ -811,9 +817,12 @@ const AccountingServices = (props) => {
                     </div>
                   </div>
                 </div>
-                <button className="accounting-services-button2 buttonOutline">
-                  Continue with Free
-                </button>
+                <a
+                  href="mailto:info@taxobey.lk?subject=SMB Advanced Enquiry"
+                  className="accounting-services-link2 buttonOutline"
+                >
+                  Send Your Request
+                </a>
               </div>
             </div>
           </div>
